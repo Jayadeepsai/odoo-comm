@@ -1,0 +1,1542 @@
+2022-12-15 06:06:35,009 12456 INFO ? odoo: Odoo version 16.0-20221214 
+2022-12-15 06:06:35,009 12456 INFO ? odoo: Using configuration file at C:\odoo16\server\odoo.conf 
+2022-12-15 06:06:35,009 12456 INFO ? odoo: addons paths: ['C:\\odoo16\\server\\odoo\\addons', 'c:\\odoo16\\sessions\\addons\\16.0', 'c:\\odoo16\\server\\odoo\\addons'] 
+2022-12-15 06:06:35,009 12456 INFO ? odoo: database: openpg@localhost:5432 
+2022-12-15 06:06:35,839 12456 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\odoo16\thirdparty\wkhtmltopdf.exe 
+2022-12-15 06:06:37,502 12456 INFO ? odoo.service.server: Initiating shutdown 
+2022-12-15 06:06:37,502 12456 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2022-12-15 06:06:39,623 18736 INFO ? odoo: Odoo version 16.0-20221214 
+2022-12-15 06:06:39,623 18736 INFO ? odoo: Using configuration file at C:\odoo16\server\odoo.conf 
+2022-12-15 06:06:39,623 18736 INFO ? odoo: addons paths: ['C:\\odoo16\\server\\odoo\\addons', 'c:\\odoo16\\sessions\\addons\\16.0', 'c:\\odoo16\\server\\odoo\\addons'] 
+2022-12-15 06:06:39,623 18736 INFO ? odoo: database: openpg@localhost:5432 
+2022-12-15 06:06:39,759 18736 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\odoo16\thirdparty\wkhtmltopdf.exe 
+2022-12-15 06:06:40,013 18736 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-DOCAOS9L:8069 
+2022-12-15 06:06:44,098 18736 INFO ? odoo.sql_db: Connection to the database failed 
+2022-12-15 06:06:48,166 18736 INFO ? odoo.sql_db: Connection to the database failed 
+2022-12-15 06:21:45,580 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:45] "GET / HTTP/1.1" 303 - 1 0.039 0.056
+2022-12-15 06:21:45,824 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:45] "GET /web HTTP/1.1" 303 - 2 0.003 0.088
+2022-12-15 06:21:50,208 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:50] "GET /web/database/selector HTTP/1.1" 200 - 2 0.006 4.313
+2022-12-15 06:21:50,833 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:50] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 1 0.000 0.290
+2022-12-15 06:21:50,836 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:50] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 1 0.000 0.293
+2022-12-15 06:21:50,842 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:50] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 1 0.009 0.291
+2022-12-15 06:21:50,845 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:50] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 1 0.009 0.292
+2022-12-15 06:21:50,847 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:50] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 1 0.000 0.303
+2022-12-15 06:21:50,871 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:50] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 - 1 0.000 0.328
+2022-12-15 06:21:51,395 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:51] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 1 0.009 0.229
+2022-12-15 06:21:51,400 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:51] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 1 0.008 0.238
+2022-12-15 06:21:51,402 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:51] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 1 0.000 0.247
+2022-12-15 06:21:51,406 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:51] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 1 0.010 0.240
+2022-12-15 06:21:51,411 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:51] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 1 0.002 0.253
+2022-12-15 06:21:53,047 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:53] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.003 0.047
+2022-12-15 06:21:53,209 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:21:53] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.003 0.088
+2022-12-15 06:23:13,860 18736 INFO None odoo.service.db: Create database `Deepu`. 
+2022-12-15 06:23:15,809 18736 INFO Deepu odoo.modules.loading: loading 1 modules... 
+2022-12-15 06:23:15,809 18736 INFO Deepu odoo.modules.loading: Loading module base (1/1) 
+2022-12-15 06:23:15,830 18736 INFO Deepu odoo.modules.registry: module base: creating or updating database tables 
+2022-12-15 06:23:16,560 18736 INFO Deepu odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2022-12-15 06:23:16,560 18736 INFO Deepu odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2022-12-15 06:23:16,560 18736 INFO Deepu odoo.models: Prepare computation of ir.module.module.views_by_module 
+2022-12-15 06:23:16,842 18736 INFO Deepu odoo.models: Prepare computation of res.partner.user_id 
+2022-12-15 06:23:16,843 18736 INFO Deepu odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2022-12-15 06:23:16,843 18736 INFO Deepu odoo.models: Prepare computation of res.partner.display_name 
+2022-12-15 06:23:16,843 18736 INFO Deepu odoo.models: Prepare computation of res.partner.company_registry 
+2022-12-15 06:23:16,843 18736 INFO Deepu odoo.models: Prepare computation of res.partner.commercial_company_name 
+2022-12-15 06:23:16,843 18736 INFO Deepu odoo.models: Prepare computation of res.partner.partner_share 
+2022-12-15 06:23:16,929 18736 INFO Deepu odoo.models: Prepare computation of res.currency.decimal_places 
+2022-12-15 06:23:16,989 18736 INFO Deepu odoo.models: Prepare computation of res.company.logo_web 
+2022-12-15 06:23:17,057 18736 INFO Deepu odoo.models: Prepare computation of res.users.signature 
+2022-12-15 06:23:17,057 18736 INFO Deepu odoo.models: Prepare computation of res.users.share 
+2022-12-15 06:23:19,424 18736 INFO Deepu odoo.modules.loading: loading base/data/res_bank.xml 
+2022-12-15 06:23:19,449 18736 INFO Deepu odoo.modules.loading: loading base/data/res.lang.csv 
+2022-12-15 06:23:19,499 18736 INFO Deepu odoo.modules.loading: loading base/data/res_lang_data.xml 
+2022-12-15 06:23:19,531 18736 INFO Deepu odoo.modules.loading: loading base/data/res_partner_data.xml 
+2022-12-15 06:23:19,609 18736 INFO Deepu odoo.modules.loading: loading base/data/res_company_data.xml 
+2022-12-15 06:23:19,630 18736 INFO Deepu odoo.modules.loading: loading base/data/res_users_data.xml 
+2022-12-15 06:23:20,350 18736 INFO Deepu odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2022-12-15 06:23:20,365 18736 INFO Deepu odoo.modules.loading: loading base/data/res_currency_data.xml 
+2022-12-15 06:23:20,779 18736 INFO Deepu odoo.modules.loading: loading base/data/res_country_data.xml 
+2022-12-15 06:23:21,204 18736 INFO Deepu odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2022-12-15 06:23:21,224 18736 INFO Deepu odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2022-12-15 06:23:21,238 18736 INFO Deepu odoo.modules.loading: loading base/security/base_groups.xml 
+2022-12-15 06:23:21,461 18736 INFO Deepu odoo.modules.loading: loading base/security/base_security.xml 
+2022-12-15 06:23:21,584 18736 INFO Deepu odoo.modules.loading: loading base/views/base_menus.xml 
+2022-12-15 06:23:21,695 18736 INFO Deepu odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2022-12-15 06:23:21,730 18736 INFO Deepu odoo.modules.loading: loading base/views/res_config_views.xml 
+2022-12-15 06:23:21,744 18736 INFO Deepu odoo.modules.loading: loading base/data/res.country.state.csv 
+2022-12-15 06:23:22,202 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2022-12-15 06:23:22,322 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2022-12-15 06:23:22,348 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2022-12-15 06:23:22,371 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2022-12-15 06:23:22,412 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2022-12-15 06:23:22,435 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2022-12-15 06:23:22,462 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2022-12-15 06:23:22,488 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_model_views.xml 
+2022-12-15 06:23:22,639 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2022-12-15 06:23:22,670 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2022-12-15 06:23:22,699 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2022-12-15 06:23:22,726 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2022-12-15 06:23:22,752 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2022-12-15 06:23:22,805 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_default_views.xml 
+2022-12-15 06:23:22,829 18736 INFO Deepu odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2022-12-15 06:23:22,839 18736 INFO Deepu odoo.modules.loading: loading base/report/ir_model_report.xml 
+2022-12-15 06:23:22,850 18736 INFO Deepu odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2022-12-15 06:23:22,863 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2022-12-15 06:23:22,886 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2022-12-15 06:23:22,900 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_module_views.xml 
+2022-12-15 06:23:22,972 18736 INFO Deepu odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2022-12-15 06:23:23,041 18736 INFO Deepu odoo.modules.loading: loading base/data/ir_module_module.xml 
+2022-12-15 06:23:23,115 18736 INFO Deepu odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2022-12-15 06:23:23,125 18736 INFO Deepu odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2022-12-15 06:23:23,137 18736 INFO Deepu odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2022-12-15 06:23:23,153 18736 INFO Deepu odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2022-12-15 06:23:23,169 18736 INFO Deepu odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2022-12-15 06:23:23,189 18736 INFO Deepu odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2022-12-15 06:23:23,214 18736 INFO Deepu odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2022-12-15 06:23:23,226 18736 INFO Deepu odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2022-12-15 06:23:23,245 18736 INFO Deepu odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2022-12-15 06:23:23,265 18736 INFO Deepu odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2022-12-15 06:23:23,274 18736 INFO Deepu odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2022-12-15 06:23:23,290 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2022-12-15 06:23:23,318 18736 INFO Deepu odoo.modules.loading: loading base/views/res_company_views.xml 
+2022-12-15 06:23:23,346 18736 INFO Deepu odoo.modules.loading: loading base/views/res_lang_views.xml 
+2022-12-15 06:23:23,373 18736 INFO Deepu odoo.modules.loading: loading base/views/res_partner_views.xml 
+2022-12-15 06:23:23,489 18736 INFO Deepu odoo.modules.loading: loading base/views/res_bank_views.xml 
+2022-12-15 06:23:23,528 18736 INFO Deepu odoo.modules.loading: loading base/views/res_country_views.xml 
+2022-12-15 06:23:23,573 18736 INFO Deepu odoo.modules.loading: loading base/views/res_currency_views.xml 
+2022-12-15 06:23:23,614 18736 INFO Deepu odoo.modules.loading: loading base/views/res_users_views.xml 
+2022-12-15 06:23:23,733 18736 INFO Deepu odoo.modules.loading: loading base/views/ir_property_views.xml 
+2022-12-15 06:23:23,760 18736 INFO Deepu odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2022-12-15 06:23:23,773 18736 INFO Deepu odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2022-12-15 06:23:23,803 18736 INFO Deepu odoo.modules.loading: loading base/views/onboarding_views.xml 
+2022-12-15 06:23:23,833 18736 INFO Deepu odoo.modules.loading: loading base/security/ir.model.access.csv 
+2022-12-15 06:23:23,939 18736 INFO Deepu odoo.modules.loading: Module base: loading demo 
+2022-12-15 06:23:23,939 18736 INFO Deepu odoo.modules.loading: loading base/data/res_company_demo.xml 
+2022-12-15 06:23:23,952 18736 INFO Deepu odoo.modules.loading: loading base/data/res_users_demo.xml 
+2022-12-15 06:23:24,817 18736 INFO Deepu odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2022-12-15 06:23:24,827 18736 INFO Deepu odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2022-12-15 06:23:25,059 18736 INFO Deepu odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2022-12-15 06:23:25,069 18736 INFO Deepu odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2022-12-15 06:23:25,335 18736 INFO Deepu odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2022-12-15 06:23:26,073 18736 INFO Deepu odoo.modules.loading: Module base loaded in 10.26s, 8975 queries (+8975 other) 
+2022-12-15 06:23:26,073 18736 INFO Deepu odoo.modules.loading: 1 modules loaded in 10.26s, 8975 queries (+8975 extra) 
+2022-12-15 06:23:26,116 18736 INFO Deepu odoo.modules.loading: updating modules list 
+2022-12-15 06:23:26,116 18736 INFO Deepu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2022-12-15 06:23:26,637 18736 INFO Deepu odoo.modules.loading: loading 8 modules... 
+2022-12-15 06:23:26,637 18736 INFO Deepu odoo.modules.loading: Loading module web (2/8) 
+2022-12-15 06:23:26,656 18736 INFO Deepu odoo.modules.registry: module web: creating or updating database tables 
+2022-12-15 06:23:27,137 18736 INFO Deepu odoo.modules.loading: loading web/security/ir.model.access.csv 
+2022-12-15 06:23:27,158 18736 INFO Deepu odoo.modules.loading: loading web/views/webclient_templates.xml 
+2022-12-15 06:23:27,241 18736 INFO Deepu odoo.modules.loading: loading web/views/report_templates.xml 
+2022-12-15 06:23:27,336 18736 INFO Deepu odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2022-12-15 06:23:27,358 18736 INFO Deepu odoo.modules.loading: loading web/views/speedscope_template.xml 
+2022-12-15 06:23:27,376 18736 INFO Deepu odoo.modules.loading: loading web/views/lazy_assets.xml 
+2022-12-15 06:23:27,387 18736 INFO Deepu odoo.modules.loading: loading web/views/neutralize_views.xml 
+2022-12-15 06:23:27,397 18736 INFO Deepu odoo.modules.loading: loading web/data/ir_attachment.xml 
+2022-12-15 06:23:27,411 18736 INFO Deepu odoo.modules.loading: loading web/data/report_layout.xml 
+2022-12-15 06:23:27,456 18736 INFO Deepu odoo.modules.loading: Module web loaded in 0.82s, 882 queries (+882 other) 
+2022-12-15 06:23:27,456 18736 INFO Deepu odoo.modules.loading: Loading module auth_totp (3/8) 
+2022-12-15 06:23:27,603 18736 INFO Deepu odoo.modules.registry: module auth_totp: creating or updating database tables 
+2022-12-15 06:23:27,687 18736 INFO Deepu odoo.modules.loading: loading auth_totp/security/security.xml 
+2022-12-15 06:23:27,725 18736 INFO Deepu odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2022-12-15 06:23:27,738 18736 INFO Deepu odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2022-12-15 06:23:27,751 18736 INFO Deepu odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2022-12-15 06:23:27,781 18736 INFO Deepu odoo.modules.loading: loading auth_totp/views/templates.xml 
+2022-12-15 06:23:27,795 18736 INFO Deepu odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2022-12-15 06:23:27,821 18736 INFO Deepu odoo.modules.loading: Module auth_totp loaded in 0.37s, 180 queries (+180 other) 
+2022-12-15 06:23:27,821 18736 INFO Deepu odoo.modules.loading: Loading module base_import (4/8) 
+2022-12-15 06:23:27,900 18736 INFO Deepu odoo.modules.registry: module base_import: creating or updating database tables 
+2022-12-15 06:23:28,756 18736 INFO Deepu odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2022-12-15 06:23:28,799 18736 INFO Deepu odoo.modules.loading: Module base_import loaded in 0.98s, 890 queries (+890 other) 
+2022-12-15 06:23:28,799 18736 INFO Deepu odoo.modules.loading: Loading module bus (5/8) 
+2022-12-15 06:23:28,915 18736 INFO Deepu odoo.modules.registry: module bus: creating or updating database tables 
+2022-12-15 06:23:29,015 18736 INFO Deepu odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2022-12-15 06:23:29,041 18736 INFO Deepu odoo.modules.loading: Module bus loaded in 0.24s, 105 queries (+105 other) 
+2022-12-15 06:23:29,041 18736 INFO Deepu odoo.modules.loading: Loading module web_kanban_gauge (6/8) 
+2022-12-15 06:23:29,082 18736 INFO Deepu odoo.modules.loading: Module web_kanban_gauge loaded in 0.04s, 12 queries (+12 other) 
+2022-12-15 06:23:29,082 18736 INFO Deepu odoo.modules.loading: Loading module web_tour (7/8) 
+2022-12-15 06:23:29,124 18736 INFO Deepu odoo.modules.registry: module web_tour: creating or updating database tables 
+2022-12-15 06:23:29,169 18736 INFO Deepu odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2022-12-15 06:23:29,183 18736 INFO Deepu odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2022-12-15 06:23:29,195 18736 INFO Deepu odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2022-12-15 06:23:29,234 18736 INFO Deepu odoo.modules.loading: Module web_tour loaded in 0.15s, 101 queries (+101 other) 
+2022-12-15 06:23:29,234 18736 INFO Deepu odoo.modules.loading: Loading module web_editor (8/8) 
+2022-12-15 06:23:29,461 18736 INFO Deepu odoo.modules.registry: module web_editor: creating or updating database tables 
+2022-12-15 06:23:30,004 18736 INFO Deepu odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2022-12-15 06:23:30,019 18736 INFO Deepu odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2022-12-15 06:23:30,030 18736 INFO Deepu odoo.modules.loading: loading web_editor/views/editor.xml 
+2022-12-15 06:23:30,058 18736 INFO Deepu odoo.modules.loading: loading web_editor/views/snippets.xml 
+2022-12-15 06:23:30,111 18736 INFO Deepu odoo.modules.loading: Module web_editor loaded in 0.88s, 821 queries (+821 other) 
+2022-12-15 06:23:30,111 18736 INFO Deepu odoo.modules.loading: 8 modules loaded in 3.47s, 2991 queries (+2991 extra) 
+2022-12-15 06:23:30,291 18736 INFO Deepu odoo.modules.loading: Modules loaded. 
+2022-12-15 06:23:30,296 18736 INFO Deepu odoo.modules.registry: Registry loaded in 14.498s 
+2022-12-15 06:23:31,078 18736 INFO Deepu odoo.addons.base.models.res_users: Login successful for db:Deepu login:jayadeepsaim@gmail.com from 127.0.0.1 
+2022-12-15 06:23:31,087 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:23:31] "POST /web/database/create HTTP/1.1" 303 - 16718 11.003 6.379
+2022-12-15 06:23:31,413 18736 INFO Deepu odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-12-15 06:23:31,480 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:23:31] "GET /web HTTP/1.1" 303 - 2 0.003 0.075
+2022-12-15 06:23:43,652 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:23:43] "GET /web/login HTTP/1.1" 200 - 70 0.060 11.924
+2022-12-15 06:23:44,014 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:23:44] "GET /web/assets/189-0876906/web.assets_frontend.min.css HTTP/1.1" 200 - 6 0.004 0.043
+2022-12-15 06:23:44,023 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:23:44] "GET /web/assets/190-81f2c99/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 5 0.008 0.049
+2022-12-15 06:23:44,236 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:23:44] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.002 0.004
+2022-12-15 06:23:44,565 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:23:44] "GET /web/assets/191-6e04d2b/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 5 0.005 0.238
+2022-12-15 06:23:44,684 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:23:44] "GET /web/webclient/translations/1671085424671 HTTP/1.1" 200 - 3 0.002 0.006
+2022-12-15 06:23:45,007 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:23:45] "GET /web/webclient/translations/1671085424687 HTTP/1.1" 200 - 3 0.000 0.000
+2022-12-15 06:23:45,308 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:23:45] "GET /bus/websocket_worker_bundle?v=1.0.0 HTTP/1.1" 200 - 10 0.000 0.042
+2022-12-15 06:26:13,692 18736 INFO Deepu odoo.addons.base.models.res_users: Login failed for db:Deepu login:jayadeepsaim@gmail.com from 127.0.0.1 
+2022-12-15 06:26:13,694 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:13] "POST /web/login HTTP/1.1" 200 - 6 0.010 0.387
+2022-12-15 06:26:13,708 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:13] "GET /web/binary/company_logo HTTP/1.1" 304 - 2 0.001 0.004
+2022-12-15 06:26:13,831 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:13] "GET /web/webclient/translations/1671085573827 HTTP/1.1" 200 - 3 0.000 0.003
+2022-12-15 06:26:14,163 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:14] "GET /web/webclient/translations/1671085573849 HTTP/1.1" 200 - 3 0.000 0.000
+2022-12-15 06:26:14,431 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:14] "GET /bus/websocket_worker_bundle?v=1.0.0 HTTP/1.1" 304 - 5 0.000 0.000
+2022-12-15 06:26:24,351 18736 INFO Deepu odoo.addons.base.models.res_users: Login successful for db:Deepu login:jayadeepsaim@gmail.com from 127.0.0.1 
+2022-12-15 06:26:24,360 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:24] "POST /web/login HTTP/1.1" 303 - 25 0.022 0.368
+2022-12-15 06:26:43,950 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:43] "GET /web HTTP/1.1" 200 - 96 0.136 19.451
+2022-12-15 06:26:44,383 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:44] "GET /web/webclient/load_menus/3b5665afdb76f0b35edca6c8b7486724a31b5c9e8fd5a2aa71a636993cb1dd9b HTTP/1.1" 200 - 1 0.001 0.107
+2022-12-15 06:26:44,397 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:44] "GET /web/assets/194-28d1006/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.006 0.120
+2022-12-15 06:26:44,399 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:44] "GET /web/assets/197-2b53197/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.009 0.115
+2022-12-15 06:26:44,408 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:44] "GET /web/assets/193-a582845/web.assets_common.min.css HTTP/1.1" 200 - 4 0.011 0.128
+2022-12-15 06:26:44,463 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:44] "GET /web/assets/196-28d1006/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.005 0.186
+2022-12-15 06:26:44,596 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:44] "GET /web/assets/195-a582845/web.assets_common.min.js HTTP/1.1" 200 - 4 0.011 0.312
+2022-12-15 06:26:44,694 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:44] "GET /web/webclient/translations/65607f58d5469d51a5b051eb66c57db2c3d405a5?lang=en_US HTTP/1.1" 200 - 3 0.002 0.002
+2022-12-15 06:26:45,152 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:45] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.001 0.008
+2022-12-15 06:26:45,165 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:45] "GET /bus/websocket_worker_bundle?v=1.0.0 HTTP/1.1" 304 - 4 0.006 0.004
+2022-12-15 06:26:45,409 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:45] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.000
+2022-12-15 06:26:45,498 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:45] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.012
+2022-12-15 06:26:45,507 18736 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2022-12-15 06:26:45,577 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:45] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 7 0.009 0.013
+2022-12-15 06:26:45,587 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:45] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.018 0.063
+2022-12-15 06:26:45,595 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:45] "POST /web/action/load HTTP/1.1" 200 - 11 0.034 0.055
+2022-12-15 06:26:45,654 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:45] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.041 0.014
+2022-12-15 06:26:45,995 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:45] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.006 0.008
+2022-12-15 06:26:46,032 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.034 0.020
+2022-12-15 06:26:46,252 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:46] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2022-12-15 06:26:46,438 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:46] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.021
+2022-12-15 06:26:46,438 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:46] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.021
+2022-12-15 06:26:46,438 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:46] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.021
+2022-12-15 06:26:46,438 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:46] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.021
+2022-12-15 06:26:46,438 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:46] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2022-12-15 06:26:46,564 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:46] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.001
+2022-12-15 06:26:46,769 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:46] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.015
+2022-12-15 06:26:46,769 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:46] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.015
+2022-12-15 06:26:46,770 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:46] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.016
+2022-12-15 06:26:46,770 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:46] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2022-12-15 06:26:46,770 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:46] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.017
+2022-12-15 06:26:46,896 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:46] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.000
+2022-12-15 06:26:47,098 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2022-12-15 06:26:47,102 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.016
+2022-12-15 06:26:47,103 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.017
+2022-12-15 06:26:47,107 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.022
+2022-12-15 06:26:47,109 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.018
+2022-12-15 06:26:47,247 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2022-12-15 06:26:47,420 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2022-12-15 06:26:47,420 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2022-12-15 06:26:47,420 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.008
+2022-12-15 06:26:47,430 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2022-12-15 06:26:47,432 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.006
+2022-12-15 06:26:47,562 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.000
+2022-12-15 06:26:47,754 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.018
+2022-12-15 06:26:47,754 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.018
+2022-12-15 06:26:47,756 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.020
+2022-12-15 06:26:47,756 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.021
+2022-12-15 06:26:47,760 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2022-12-15 06:26:47,907 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:47] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2022-12-15 06:26:48,091 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.011
+2022-12-15 06:26:48,091 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2022-12-15 06:26:48,091 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2022-12-15 06:26:48,092 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.011
+2022-12-15 06:26:48,093 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.009
+2022-12-15 06:26:48,246 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2022-12-15 06:26:48,415 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2022-12-15 06:26:48,418 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.012
+2022-12-15 06:26:48,418 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.014
+2022-12-15 06:26:48,419 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.010
+2022-12-15 06:26:48,419 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2022-12-15 06:26:48,573 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.014
+2022-12-15 06:26:48,755 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.020
+2022-12-15 06:26:48,758 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.023
+2022-12-15 06:26:48,761 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.026
+2022-12-15 06:26:48,761 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /note/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.023
+2022-12-15 06:26:48,763 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.019
+2022-12-15 06:26:48,899 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:48] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.012
+2022-12-15 06:26:49,095 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:49] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.015
+2022-12-15 06:26:49,096 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:49] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2022-12-15 06:26:49,106 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:49] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - 0 0.000 0.009
+2022-12-15 06:26:49,108 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:26:49] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2022-12-15 06:26:57,384 18736 INFO Deepu odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Point of Sale'] to user jayadeepsaim@gmail.com #2 via 127.0.0.1 
+2022-12-15 06:26:57,385 18736 INFO Deepu odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2022-12-15 06:26:57,387 18736 INFO Deepu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Point of Sale'] to user jayadeepsaim@gmail.com #2 via 127.0.0.1 
+2022-12-15 06:26:57,537 18736 INFO Deepu odoo.modules.loading: loading 1 modules... 
+2022-12-15 06:26:57,545 18736 INFO Deepu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2022-12-15 06:26:57,566 18736 INFO Deepu odoo.modules.loading: updating modules list 
+2022-12-15 06:26:57,568 18736 INFO Deepu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2022-12-15 06:26:58,077 18736 INFO Deepu odoo.modules.loading: loading 8 modules... 
+2022-12-15 06:26:58,077 18736 INFO Deepu odoo.modules.loading: 8 modules loaded in 0.00s, 0 queries (+0 extra) 
+2022-12-15 06:26:58,077 18736 INFO Deepu odoo.modules.loading: loading 50 modules... 
+2022-12-15 06:26:58,077 18736 INFO Deepu odoo.modules.loading: Loading module uom (2/50) 
+2022-12-15 06:26:58,125 18736 INFO Deepu odoo.modules.registry: module uom: creating or updating database tables 
+2022-12-15 06:26:58,251 18736 INFO Deepu odoo.modules.loading: loading uom/data/uom_data.xml 
+2022-12-15 06:26:58,298 18736 INFO Deepu odoo.modules.loading: loading uom/security/uom_security.xml 
+2022-12-15 06:26:58,329 18736 INFO Deepu odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2022-12-15 06:26:58,345 18736 INFO Deepu odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2022-12-15 06:26:58,400 18736 INFO Deepu odoo.modules.loading: Module uom loaded in 0.32s, 259 queries (+259 other) 
+2022-12-15 06:26:58,400 18736 INFO Deepu odoo.modules.loading: Loading module barcodes (5/50) 
+2022-12-15 06:26:58,451 18736 INFO Deepu odoo.modules.registry: module barcodes: creating or updating database tables 
+2022-12-15 06:26:58,549 18736 INFO Deepu odoo.modules.loading: loading barcodes/data/barcodes_data.xml 
+2022-12-15 06:26:58,566 18736 INFO Deepu odoo.modules.loading: loading barcodes/views/barcodes_view.xml 
+2022-12-15 06:26:58,582 18736 INFO Deepu odoo.modules.loading: loading barcodes/security/ir.model.access.csv 
+2022-12-15 06:26:58,616 18736 INFO Deepu odoo.modules.loading: Module barcodes loaded in 0.22s, 134 queries (+134 other) 
+2022-12-15 06:26:58,616 18736 INFO Deepu odoo.modules.loading: Loading module base_setup (7/50) 
+2022-12-15 06:26:58,667 18736 INFO Deepu odoo.modules.registry: module base_setup: creating or updating database tables 
+2022-12-15 06:26:58,730 18736 INFO Deepu odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2022-12-15 06:26:58,730 18736 INFO Deepu odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2022-12-15 06:26:58,778 18736 INFO Deepu odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2022-12-15 06:26:58,794 18736 INFO Deepu odoo.modules.loading: Module base_setup loaded in 0.18s, 153 queries (+153 other) 
+2022-12-15 06:26:58,794 18736 INFO Deepu odoo.modules.loading: Loading module http_routing (9/50) 
+2022-12-15 06:26:58,809 18736 INFO Deepu odoo.modules.registry: module http_routing: creating or updating database tables 
+2022-12-15 06:26:58,825 18736 INFO Deepu odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2022-12-15 06:26:58,872 18736 INFO Deepu odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2022-12-15 06:26:58,888 18736 INFO Deepu odoo.modules.loading: Module http_routing loaded in 0.09s, 78 queries (+78 other) 
+2022-12-15 06:26:58,888 18736 INFO Deepu odoo.modules.loading: Loading module resource (10/50) 
+2022-12-15 06:26:58,974 18736 INFO Deepu odoo.modules.registry: module resource: creating or updating database tables 
+2022-12-15 06:26:59,177 18736 INFO Deepu odoo.modules.loading: loading resource/data/resource_data.xml 
+2022-12-15 06:26:59,209 18736 INFO Deepu odoo.modules.loading: loading resource/security/ir.model.access.csv 
+2022-12-15 06:26:59,225 18736 INFO Deepu odoo.modules.loading: loading resource/security/resource_security.xml 
+2022-12-15 06:26:59,257 18736 INFO Deepu odoo.modules.loading: loading resource/views/resource_views.xml 
+2022-12-15 06:26:59,365 18736 INFO Deepu odoo.modules.loading: Module resource loaded in 0.48s, 420 queries (+420 other) 
+2022-12-15 06:26:59,365 18736 INFO Deepu odoo.modules.loading: Loading module barcodes_gs1_nomenclature (13/50) 
+2022-12-15 06:26:59,418 18736 INFO Deepu odoo.modules.registry: module barcodes_gs1_nomenclature: creating or updating database tables 
+2022-12-15 06:26:59,449 18736 INFO Deepu odoo.modules.loading: loading barcodes_gs1_nomenclature/data/barcodes_gs1_rules.xml 
+2022-12-15 06:26:59,513 18736 INFO Deepu odoo.modules.loading: loading barcodes_gs1_nomenclature/views/barcodes_view.xml 
+2022-12-15 06:26:59,562 18736 INFO Deepu odoo.modules.loading: Module barcodes_gs1_nomenclature loaded in 0.20s, 196 queries (+196 other) 
+2022-12-15 06:26:59,562 18736 INFO Deepu odoo.modules.loading: Loading module iap (14/50) 
+2022-12-15 06:26:59,624 18736 INFO Deepu odoo.modules.registry: module iap: creating or updating database tables 
+2022-12-15 06:26:59,720 18736 INFO Deepu odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2022-12-15 06:26:59,736 18736 INFO Deepu odoo.modules.loading: loading iap/security/ir_rule.xml 
+2022-12-15 06:26:59,736 18736 INFO Deepu odoo.modules.loading: loading iap/views/iap_views.xml 
+2022-12-15 06:26:59,772 18736 INFO Deepu odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2022-12-15 06:26:59,804 18736 INFO Deepu odoo.modules.loading: Module iap loaded in 0.24s, 145 queries (+145 other) 
+2022-12-15 06:26:59,804 18736 INFO Deepu odoo.modules.loading: Loading module mail (15/50) 
+2022-12-15 06:27:00,309 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:27:00] "GET /web/static/img/spin.svg HTTP/1.1" 200 - 0 0.000 0.008
+2022-12-15 06:27:01,702 18736 INFO Deepu odoo.modules.registry: module mail: creating or updating database tables 
+2022-12-15 06:27:03,196 18736 INFO Deepu odoo.models: Prepare computation of ir.actions.server.partner_ids 
+2022-12-15 06:27:03,197 18736 INFO Deepu odoo.models: Prepare computation of ir.actions.server.template_id 
+2022-12-15 06:27:03,197 18736 INFO Deepu odoo.models: Prepare computation of ir.actions.server.activity_type_id 
+2022-12-15 06:27:03,197 18736 INFO Deepu odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range 
+2022-12-15 06:27:03,197 18736 INFO Deepu odoo.models: Prepare computation of ir.actions.server.activity_user_id 
+2022-12-15 06:27:03,197 18736 INFO Deepu odoo.models: Prepare computation of ir.actions.server.mail_post_method 
+2022-12-15 06:27:03,197 18736 INFO Deepu odoo.models: Prepare computation of ir.actions.server.activity_summary 
+2022-12-15 06:27:03,197 18736 INFO Deepu odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range_type 
+2022-12-15 06:27:03,197 18736 INFO Deepu odoo.models: Prepare computation of ir.actions.server.activity_user_type 
+2022-12-15 06:27:03,197 18736 INFO Deepu odoo.models: Prepare computation of ir.actions.server.activity_user_field_name 
+2022-12-15 06:27:03,197 18736 INFO Deepu odoo.models: Prepare computation of ir.actions.server.activity_note 
+2022-12-15 06:27:03,197 18736 INFO Deepu odoo.models: Prepare computation of ir.actions.server.mail_post_autofollow 
+2022-12-15 06:27:03,405 18736 INFO Deepu odoo.models: Prepare computation of res.partner.email_normalized 
+2022-12-15 06:27:03,419 18736 INFO Deepu odoo.models: Prepare computation of res.users.notification_type 
+2022-12-15 06:27:08,012 18736 INFO Deepu odoo.modules.loading: loading mail/data/mail_groups.xml 
+2022-12-15 06:27:08,131 18736 INFO Deepu odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2022-12-15 06:27:08,174 18736 INFO Deepu odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2022-12-15 06:27:08,265 18736 INFO Deepu odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2022-12-15 06:27:08,291 18736 INFO Deepu odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2022-12-15 06:27:08,327 18736 INFO Deepu odoo.modules.loading: loading mail/wizard/mail_wizard_invite_views.xml 
+2022-12-15 06:27:08,366 18736 INFO Deepu odoo.modules.loading: loading mail/wizard/mail_template_reset_views.xml 
+2022-12-15 06:27:08,402 18736 INFO Deepu odoo.modules.loading: loading mail/views/fetchmail_views.xml 
+2022-12-15 06:27:08,477 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2022-12-15 06:27:08,494 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
+2022-12-15 06:27:08,527 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2022-12-15 06:27:08,610 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2022-12-15 06:27:08,726 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_message_schedule_views.xml 
+2022-12-15 06:27:08,828 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2022-12-15 06:27:08,939 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2022-12-15 06:27:09,029 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2022-12-15 06:27:09,046 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_channel_member_views.xml 
+2022-12-15 06:27:09,110 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_channel_rtc_session_views.xml 
+2022-12-15 06:27:09,183 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_link_preview_views.xml 
+2022-12-15 06:27:09,226 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_channel_views.xml 
+2022-12-15 06:27:09,263 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2022-12-15 06:27:09,332 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2022-12-15 06:27:09,511 18736 INFO Deepu odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2022-12-15 06:27:09,593 18736 INFO Deepu odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2022-12-15 06:27:09,642 18736 INFO Deepu odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2022-12-15 06:27:09,702 18736 INFO Deepu odoo.modules.loading: loading mail/data/mail_templates_chatter.xml 
+2022-12-15 06:27:09,795 18736 INFO Deepu odoo.modules.loading: loading mail/data/mail_templates_email_layouts.xml 
+2022-12-15 06:27:09,867 18736 INFO Deepu odoo.modules.loading: loading mail/data/mail_templates_mailgateway.xml 
+2022-12-15 06:27:09,881 18736 INFO Deepu odoo.modules.loading: loading mail/data/mail_channel_data.xml 
+2022-12-15 06:27:10,001 18736 INFO Deepu odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2022-12-15 06:27:10,085 18736 INFO Deepu odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2022-12-15 06:27:10,185 18736 INFO Deepu odoo.modules.loading: loading mail/security/mail_security.xml 
+2022-12-15 06:27:10,431 18736 INFO Deepu odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2022-12-15 06:27:10,596 18736 INFO Deepu odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2022-12-15 06:27:10,637 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2022-12-15 06:27:10,691 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_gateway_allowed_views.xml 
+2022-12-15 06:27:10,770 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2022-12-15 06:27:10,824 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2022-12-15 06:27:10,871 18736 INFO Deepu odoo.modules.loading: loading mail/views/res_users_views.xml 
+2022-12-15 06:27:10,895 18736 INFO Deepu odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2022-12-15 06:27:10,955 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2022-12-15 06:27:11,036 18736 INFO Deepu odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2022-12-15 06:27:11,057 18736 INFO Deepu odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2022-12-15 06:27:11,170 18736 INFO Deepu odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2022-12-15 06:27:11,303 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2022-12-15 06:27:11,406 18736 INFO Deepu odoo.modules.loading: loading mail/views/mail_menus.xml 
+2022-12-15 06:27:11,648 18736 INFO Deepu odoo.modules.loading: Module mail: loading demo 
+2022-12-15 06:27:11,648 18736 INFO Deepu odoo.modules.loading: loading mail/data/mail_channel_demo.xml 
+2022-12-15 06:27:12,121 18736 INFO Deepu odoo.modules.loading: Module mail loaded in 12.32s, 3553 queries (+3553 other) 
+2022-12-15 06:27:12,122 18736 INFO Deepu odoo.modules.loading: Loading module spreadsheet (16/50) 
+2022-12-15 06:27:12,336 18736 INFO Deepu odoo.modules.registry: module spreadsheet: creating or updating database tables 
+2022-12-15 06:27:12,565 18736 INFO Deepu odoo.modules.loading: Module spreadsheet loaded in 0.44s, 41 queries (+41 other) 
+2022-12-15 06:27:12,566 18736 INFO Deepu odoo.modules.loading: Loading module analytic (18/50) 
+2022-12-15 06:27:12,888 18736 INFO Deepu odoo.modules.registry: module analytic: creating or updating database tables 
+2022-12-15 06:27:13,809 18736 INFO Deepu odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2022-12-15 06:27:13,926 18736 INFO Deepu odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2022-12-15 06:27:14,009 18736 INFO Deepu odoo.modules.loading: loading analytic/views/analytic_line_views.xml 
+2022-12-15 06:27:14,189 18736 INFO Deepu odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2022-12-15 06:27:14,267 18736 INFO Deepu odoo.modules.loading: loading analytic/views/analytic_plan_views.xml 
+2022-12-15 06:27:14,356 18736 INFO Deepu odoo.modules.loading: loading analytic/views/analytic_distribution_model_views.xml 
+2022-12-15 06:27:14,395 18736 INFO Deepu odoo.modules.loading: loading analytic/data/analytic_data.xml 
+2022-12-15 06:27:14,423 18736 INFO Deepu odoo.modules.loading: Module analytic: loading demo 
+2022-12-15 06:27:14,423 18736 INFO Deepu odoo.modules.loading: loading analytic/data/analytic_account_demo.xml 
+2022-12-15 06:27:14,898 18736 INFO Deepu odoo.modules.loading: Module analytic loaded in 2.33s, 558 queries (+558 other) 
+2022-12-15 06:27:14,899 18736 INFO Deepu odoo.modules.loading: Loading module auth_signup (19/50) 
+2022-12-15 06:27:15,105 18736 INFO Deepu odoo.modules.registry: module auth_signup: creating or updating database tables 
+2022-12-15 06:27:15,284 18736 INFO Deepu odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2022-12-15 06:27:15,337 18736 INFO Deepu odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2022-12-15 06:27:15,381 18736 INFO Deepu odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2022-12-15 06:27:15,421 18736 INFO Deepu odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2022-12-15 06:27:15,461 18736 INFO Deepu odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2022-12-15 06:27:15,561 18736 INFO Deepu odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2022-12-15 06:27:15,627 18736 INFO Deepu odoo.modules.loading: loading auth_signup/views/webclient_templates.xml 
+2022-12-15 06:27:15,685 18736 INFO Deepu odoo.modules.loading: Module auth_signup loaded in 0.79s, 191 queries (+191 other) 
+2022-12-15 06:27:15,687 18736 INFO Deepu odoo.modules.loading: Loading module auth_totp_mail (20/50) 
+2022-12-15 06:27:15,835 18736 INFO Deepu odoo.modules.registry: module auth_totp_mail: creating or updating database tables 
+2022-12-15 06:27:15,863 18736 INFO Deepu odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2022-12-15 06:27:15,968 18736 INFO Deepu odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2022-12-15 06:27:16,008 18736 INFO Deepu odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2022-12-15 06:27:16,111 18736 INFO Deepu odoo.modules.loading: Module auth_totp_mail loaded in 0.42s, 91 queries (+91 other) 
+2022-12-15 06:27:16,112 18736 INFO Deepu odoo.modules.loading: Loading module base_install_request (21/50) 
+2022-12-15 06:27:16,358 18736 INFO Deepu odoo.modules.registry: module base_install_request: creating or updating database tables 
+2022-12-15 06:27:16,598 18736 INFO Deepu odoo.modules.loading: loading base_install_request/security/ir.model.access.csv 
+2022-12-15 06:27:16,641 18736 INFO Deepu odoo.modules.loading: loading base_install_request/wizard/base_module_install_request_views.xml 
+2022-12-15 06:27:16,661 18736 INFO Deepu odoo.modules.loading: loading base_install_request/data/mail_template_data.xml 
+2022-12-15 06:27:16,692 18736 INFO Deepu odoo.modules.loading: loading base_install_request/data/mail_templates_module_install.xml 
+2022-12-15 06:27:16,743 18736 INFO Deepu odoo.modules.loading: loading base_install_request/views/ir_module_module_views.xml 
+2022-12-15 06:27:16,871 18736 INFO Deepu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Project', 'Email Marketing', 'Employees', 'Surveys'] to user __system__ #1 via 127.0.0.1 
+2022-12-15 06:27:17,072 18736 INFO Deepu odoo.modules.loading: Module base_install_request loaded in 0.96s, 193 queries (+193 other) 
+2022-12-15 06:27:17,072 18736 INFO Deepu odoo.modules.loading: Loading module google_gmail (22/50) 
+2022-12-15 06:27:17,314 18736 INFO Deepu odoo.modules.registry: module google_gmail: creating or updating database tables 
+2022-12-15 06:27:17,553 18736 INFO Deepu odoo.modules.loading: loading google_gmail/views/fetchmail_server_views.xml 
+2022-12-15 06:27:17,660 18736 INFO Deepu odoo.modules.loading: loading google_gmail/views/ir_mail_server_views.xml 
+2022-12-15 06:27:17,712 18736 INFO Deepu odoo.modules.loading: loading google_gmail/views/res_config_settings_views.xml 
+2022-12-15 06:27:17,843 18736 INFO Deepu odoo.modules.loading: Module google_gmail loaded in 0.77s, 123 queries (+123 other) 
+2022-12-15 06:27:17,843 18736 INFO Deepu odoo.modules.loading: Loading module iap_mail (23/50) 
+2022-12-15 06:27:17,979 18736 INFO Deepu odoo.modules.registry: module iap_mail: creating or updating database tables 
+2022-12-15 06:27:18,070 18736 INFO Deepu odoo.modules.loading: loading iap_mail/data/mail_templates.xml 
+2022-12-15 06:27:18,170 18736 INFO Deepu odoo.modules.loading: Module iap_mail loaded in 0.33s, 36 queries (+36 other) 
+2022-12-15 06:27:18,170 18736 INFO Deepu odoo.modules.loading: Loading module mail_bot (24/50) 
+2022-12-15 06:27:18,410 18736 INFO Deepu odoo.modules.registry: module mail_bot: creating or updating database tables 
+2022-12-15 06:27:18,799 18736 INFO Deepu odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2022-12-15 06:27:18,882 18736 INFO Deepu odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2022-12-15 06:27:18,937 18736 INFO Deepu odoo.modules.loading: Module mail_bot: loading demo 
+2022-12-15 06:27:18,937 18736 INFO Deepu odoo.modules.loading: loading mail_bot/data/mailbot_demo.xml 
+2022-12-15 06:27:18,959 18736 INFO Deepu odoo.modules.loading: Module mail_bot loaded in 0.79s, 143 queries (+143 other) 
+2022-12-15 06:27:18,959 18736 INFO Deepu odoo.modules.loading: Loading module phone_validation (25/50) 
+2022-12-15 06:27:19,400 18736 INFO Deepu odoo.modules.registry: module phone_validation: creating or updating database tables 
+2022-12-15 06:27:19,730 18736 INFO Deepu odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2022-12-15 06:27:19,779 18736 INFO Deepu odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2022-12-15 06:27:19,857 18736 INFO Deepu odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
+2022-12-15 06:27:19,972 18736 INFO Deepu odoo.modules.loading: Module phone_validation loaded in 1.01s, 160 queries (+160 other) 
+2022-12-15 06:27:19,973 18736 INFO Deepu odoo.modules.loading: Loading module privacy_lookup (26/50) 
+2022-12-15 06:27:20,201 18736 INFO Deepu odoo.modules.registry: module privacy_lookup: creating or updating database tables 
+2022-12-15 06:27:20,570 18736 INFO Deepu odoo.modules.loading: loading privacy_lookup/wizard/privacy_lookup_wizard_views.xml 
+2022-12-15 06:27:20,721 18736 INFO Deepu odoo.modules.loading: loading privacy_lookup/views/privacy_log_views.xml 
+2022-12-15 06:27:20,834 18736 INFO Deepu odoo.modules.loading: loading privacy_lookup/security/ir.model.access.csv 
+2022-12-15 06:27:20,888 18736 INFO Deepu odoo.modules.loading: loading privacy_lookup/data/ir_actions_server_data.xml 
+2022-12-15 06:27:20,976 18736 INFO Deepu odoo.modules.loading: Module privacy_lookup loaded in 1.00s, 224 queries (+224 other) 
+2022-12-15 06:27:20,976 18736 INFO Deepu odoo.modules.loading: Loading module product (27/50) 
+2022-12-15 06:27:23,884 18736 INFO Deepu odoo.modules.registry: module product: creating or updating database tables 
+2022-12-15 06:27:26,491 18736 INFO Deepu odoo.modules.loading: loading product/data/product_data.xml 
+2022-12-15 06:27:26,637 18736 INFO Deepu odoo.modules.loading: loading product/security/product_security.xml 
+2022-12-15 06:27:26,892 18736 INFO Deepu odoo.modules.loading: loading product/security/ir.model.access.csv 
+2022-12-15 06:27:27,001 18736 INFO Deepu odoo.modules.loading: loading product/wizard/product_label_layout_views.xml 
+2022-12-15 06:27:27,075 18736 INFO Deepu odoo.modules.loading: loading product/views/product_views.xml 
+2022-12-15 06:27:27,314 18736 INFO Deepu odoo.modules.loading: loading product/views/res_config_settings_views.xml 
+2022-12-15 06:27:27,394 18736 INFO Deepu odoo.modules.loading: loading product/views/product_attribute_views.xml 
+2022-12-15 06:27:27,458 18736 INFO Deepu odoo.modules.loading: loading product/views/product_category_views.xml 
+2022-12-15 06:27:27,545 18736 INFO Deepu odoo.modules.loading: loading product/views/product_packaging_views.xml 
+2022-12-15 06:27:27,669 18736 INFO Deepu odoo.modules.loading: loading product/views/product_pricelist_item_views.xml 
+2022-12-15 06:27:27,721 18736 INFO Deepu odoo.modules.loading: loading product/views/product_pricelist_views.xml 
+2022-12-15 06:27:27,915 18736 INFO Deepu odoo.modules.loading: loading product/views/product_supplierinfo_views.xml 
+2022-12-15 06:27:28,038 18736 INFO Deepu odoo.modules.loading: loading product/views/product_template_views.xml 
+2022-12-15 06:27:28,185 18736 INFO Deepu odoo.modules.loading: loading product/views/product_tag_views.xml 
+2022-12-15 06:27:28,277 18736 INFO Deepu odoo.modules.loading: loading product/views/res_country_group_views.xml 
+2022-12-15 06:27:28,326 18736 INFO Deepu odoo.modules.loading: loading product/views/res_partner_views.xml 
+2022-12-15 06:27:28,351 18736 INFO Deepu odoo.modules.loading: loading product/report/product_reports.xml 
+2022-12-15 06:27:28,424 18736 INFO Deepu odoo.modules.loading: loading product/report/product_product_templates.xml 
+2022-12-15 06:27:28,461 18736 INFO Deepu odoo.modules.loading: loading product/report/product_template_templates.xml 
+2022-12-15 06:27:28,705 18736 INFO Deepu odoo.modules.loading: loading product/report/product_packaging.xml 
+2022-12-15 06:27:28,747 18736 INFO Deepu odoo.modules.loading: loading product/report/product_pricelist_report_templates.xml 
+2022-12-15 06:27:28,788 18736 INFO Deepu odoo.modules.loading: Module product: loading demo 
+2022-12-15 06:27:28,788 18736 INFO Deepu odoo.modules.loading: loading product/data/product_demo.xml 
+2022-12-15 06:27:30,221 18736 INFO Deepu odoo.models.unlink: User #1 deleted mail.message records with IDs: [46] 
+2022-12-15 06:27:30,274 18736 INFO Deepu odoo.models.unlink: User #1 deleted ir.property records with IDs: [9] 
+2022-12-15 06:27:30,277 18736 INFO Deepu odoo.models.unlink: User #1 deleted product.product records with IDs: [9] 
+2022-12-15 06:27:30,304 18736 INFO Deepu odoo.models.unlink: User #1 deleted mail.followers records with IDs: [36] 
+2022-12-15 06:27:30,442 18736 INFO Deepu odoo.models.unlink: User #1 deleted mail.message records with IDs: [48, 47] 
+2022-12-15 06:27:30,456 18736 INFO Deepu odoo.models.unlink: User #1 deleted product.product records with IDs: [11, 10] 
+2022-12-15 06:27:30,464 18736 INFO Deepu odoo.models.unlink: User #1 deleted mail.followers records with IDs: [37, 38] 
+2022-12-15 06:27:32,225 18736 INFO Deepu odoo.models.unlink: User #1 deleted mail.message records with IDs: [66] 
+2022-12-15 06:27:32,242 18736 INFO Deepu odoo.models.unlink: User #1 deleted ir.property records with IDs: [19] 
+2022-12-15 06:27:32,243 18736 INFO Deepu odoo.models.unlink: User #1 deleted product.product records with IDs: [22] 
+2022-12-15 06:27:32,256 18736 INFO Deepu odoo.models.unlink: User #1 deleted mail.followers records with IDs: [56] 
+2022-12-15 06:27:34,597 18736 INFO Deepu odoo.modules.loading: Module product loaded in 13.62s, 3167 queries (+3167 other) 
+2022-12-15 06:27:34,597 18736 INFO Deepu odoo.modules.loading: Loading module spreadsheet_dashboard (28/50) 
+2022-12-15 06:27:34,760 18736 INFO Deepu odoo.modules.registry: module spreadsheet_dashboard: creating or updating database tables 
+2022-12-15 06:27:35,042 18736 INFO Deepu odoo.modules.loading: loading spreadsheet_dashboard/security/security.xml 
+2022-12-15 06:27:35,128 18736 INFO Deepu odoo.modules.loading: loading spreadsheet_dashboard/security/ir.model.access.csv 
+2022-12-15 06:27:35,154 18736 INFO Deepu odoo.modules.loading: loading spreadsheet_dashboard/views/spreadsheet_dashboard_views.xml 
+2022-12-15 06:27:35,211 18736 INFO Deepu odoo.modules.loading: loading spreadsheet_dashboard/views/menu_views.xml 
+2022-12-15 06:27:35,275 18736 INFO Deepu odoo.modules.loading: loading spreadsheet_dashboard/data/dashboard.xml 
+2022-12-15 06:27:35,401 18736 INFO Deepu odoo.modules.loading: Module spreadsheet_dashboard loaded in 0.80s, 185 queries (+185 other) 
+2022-12-15 06:27:35,401 18736 INFO Deepu odoo.modules.loading: Loading module web_unsplash (29/50) 
+2022-12-15 06:27:35,705 18736 INFO Deepu odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2022-12-15 06:27:35,951 18736 INFO Deepu odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2022-12-15 06:27:36,133 18736 INFO Deepu odoo.modules.loading: Module web_unsplash loaded in 0.73s, 94 queries (+94 other) 
+2022-12-15 06:27:36,134 18736 INFO Deepu odoo.modules.loading: Loading module partner_autocomplete (30/50) 
+2022-12-15 06:27:36,458 18736 INFO Deepu odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2022-12-15 06:27:36,865 18736 INFO Deepu odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2022-12-15 06:27:36,890 18736 INFO Deepu odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2022-12-15 06:27:37,007 18736 INFO Deepu odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2022-12-15 06:27:37,066 18736 INFO Deepu odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2022-12-15 06:27:37,120 18736 INFO Deepu odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2022-12-15 06:27:37,257 18736 INFO Deepu odoo.modules.loading: Module partner_autocomplete loaded in 1.12s, 173 queries (+173 other) 
+2022-12-15 06:27:37,258 18736 INFO Deepu odoo.modules.loading: Loading module portal (31/50) 
+2022-12-15 06:27:37,982 18736 INFO Deepu odoo.modules.registry: module portal: creating or updating database tables 
+2022-12-15 06:27:38,872 18736 INFO Deepu odoo.modules.loading: loading portal/security/ir.model.access.csv 
+2022-12-15 06:27:38,924 18736 INFO Deepu odoo.modules.loading: loading portal/data/mail_template_data.xml 
+2022-12-15 06:27:38,964 18736 INFO Deepu odoo.modules.loading: loading portal/data/mail_templates.xml 
+2022-12-15 06:27:38,987 18736 INFO Deepu odoo.modules.loading: loading portal/views/portal_templates.xml 
+2022-12-15 06:27:39,389 18736 INFO Deepu odoo.modules.loading: loading portal/views/res_config_settings_views.xml 
+2022-12-15 06:27:39,458 18736 INFO Deepu odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2022-12-15 06:27:39,493 18736 INFO Deepu odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2022-12-15 06:27:39,834 18736 INFO Deepu odoo.modules.loading: Module portal loaded in 2.58s, 458 queries (+458 other) 
+2022-12-15 06:27:39,834 18736 INFO Deepu odoo.modules.loading: Loading module sms (32/50) 
+2022-12-15 06:27:40,540 18736 INFO Deepu odoo.modules.registry: module sms: creating or updating database tables 
+2022-12-15 06:27:40,573 18736 INFO Deepu odoo.models: Prepare computation of ir.actions.server.sms_template_id 
+2022-12-15 06:27:40,574 18736 INFO Deepu odoo.models: Prepare computation of ir.actions.server.sms_method 
+2022-12-15 06:27:40,656 18736 INFO Deepu odoo.models: Prepare computation of res.partner.phone_sanitized 
+2022-12-15 06:27:41,264 18736 INFO Deepu odoo.addons.phone_validation.tools.phone_validation: The `phonenumbers` Python module is not installed, contact numbers will not be verified. Please install the `phonenumbers` Python module. 
+2022-12-15 06:27:42,233 18736 INFO Deepu odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2022-12-15 06:27:42,270 18736 INFO Deepu odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2022-12-15 06:27:42,342 18736 INFO Deepu odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2022-12-15 06:27:42,358 18736 INFO Deepu odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2022-12-15 06:27:42,439 18736 INFO Deepu odoo.modules.loading: loading sms/wizard/sms_template_reset_views.xml 
+2022-12-15 06:27:42,520 18736 INFO Deepu odoo.modules.loading: loading sms/views/ir_actions_server_views.xml 
+2022-12-15 06:27:42,569 18736 INFO Deepu odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2022-12-15 06:27:42,628 18736 INFO Deepu odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2022-12-15 06:27:42,669 18736 INFO Deepu odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2022-12-15 06:27:42,871 18736 INFO Deepu odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2022-12-15 06:27:43,022 18736 INFO Deepu odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2022-12-15 06:27:43,142 18736 INFO Deepu odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2022-12-15 06:27:43,200 18736 INFO Deepu odoo.modules.loading: loading sms/security/sms_security.xml 
+2022-12-15 06:27:43,251 18736 INFO Deepu odoo.modules.loading: Module sms: loading demo 
+2022-12-15 06:27:43,255 18736 INFO Deepu odoo.modules.loading: loading sms/data/sms_demo.xml 
+2022-12-15 06:27:43,276 18736 INFO Deepu odoo.modules.loading: loading sms/data/mail_demo.xml 
+2022-12-15 06:27:43,563 18736 INFO Deepu odoo.modules.loading: Module sms loaded in 3.73s, 711 queries (+711 other) 
+2022-12-15 06:27:43,563 18736 INFO Deepu odoo.modules.loading: Loading module snailmail (33/50) 
+2022-12-15 06:27:44,831 18736 INFO Deepu odoo.modules.registry: module snailmail: creating or updating database tables 
+2022-12-15 06:27:46,639 18736 INFO Deepu odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2022-12-15 06:27:46,716 18736 INFO Deepu odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2022-12-15 06:27:46,795 18736 INFO Deepu odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2022-12-15 06:27:46,952 18736 INFO Deepu odoo.modules.loading: loading snailmail/wizard/snailmail_confirm_views.xml 
+2022-12-15 06:27:46,991 18736 INFO Deepu odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2022-12-15 06:27:47,051 18736 INFO Deepu odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2022-12-15 06:27:47,110 18736 INFO Deepu odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2022-12-15 06:27:47,206 18736 INFO Deepu odoo.modules.loading: Module snailmail loaded in 3.64s, 394 queries (+394 other) 
+2022-12-15 06:27:47,207 18736 INFO Deepu odoo.modules.loading: Loading module auth_totp_portal (34/50) 
+2022-12-15 06:27:47,433 18736 INFO Deepu odoo.modules.registry: module auth_totp_portal: creating or updating database tables 
+2022-12-15 06:27:47,582 18736 INFO Deepu odoo.modules.loading: loading auth_totp_portal/security/security.xml 
+2022-12-15 06:27:47,703 18736 INFO Deepu odoo.modules.loading: loading auth_totp_portal/views/templates.xml 
+2022-12-15 06:27:47,815 18736 INFO Deepu odoo.modules.loading: Module auth_totp_portal loaded in 0.61s, 70 queries (+70 other) 
+2022-12-15 06:27:47,815 18736 INFO Deepu odoo.modules.loading: Loading module digest (35/50) 
+2022-12-15 06:27:48,209 18736 INFO Deepu odoo.modules.registry: module digest: creating or updating database tables 
+2022-12-15 06:27:48,737 18736 INFO Deepu odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2022-12-15 06:27:48,765 18736 INFO Deepu odoo.modules.loading: loading digest/data/digest_data.xml 
+2022-12-15 06:27:48,862 18736 INFO Deepu odoo.modules.loading: loading digest/data/digest_tips_data.xml 
+2022-12-15 06:27:49,002 18736 INFO Deepu odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2022-12-15 06:27:49,051 18736 INFO Deepu odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2022-12-15 06:27:49,134 18736 INFO Deepu odoo.modules.loading: loading digest/views/digest_views.xml 
+2022-12-15 06:27:49,457 18736 INFO Deepu odoo.modules.loading: loading digest/views/digest_templates.xml 
+2022-12-15 06:27:49,502 18736 INFO Deepu odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2022-12-15 06:27:49,740 18736 INFO Deepu odoo.modules.loading: Module digest loaded in 1.92s, 295 queries (+295 other) 
+2022-12-15 06:27:49,740 18736 INFO Deepu odoo.modules.loading: Loading module payment (36/50) 
+2022-12-15 06:27:50,426 18736 INFO Deepu odoo.modules.registry: module payment: creating or updating database tables 
+2022-12-15 06:27:51,740 18736 INFO Deepu odoo.modules.loading: loading payment/data/payment_icon_data.xml 
+2022-12-15 06:27:53,103 18736 INFO Deepu odoo.modules.loading: loading payment/data/payment_provider_data.xml 
+2022-12-15 06:27:54,621 18736 INFO Deepu odoo.modules.loading: loading payment/data/payment_cron.xml 
+2022-12-15 06:27:54,654 18736 INFO Deepu odoo.modules.loading: loading payment/views/payment_portal_templates.xml 
+2022-12-15 06:27:54,840 18736 INFO Deepu odoo.modules.loading: loading payment/views/payment_templates.xml 
+2022-12-15 06:27:54,960 18736 INFO Deepu odoo.modules.loading: loading payment/views/payment_provider_views.xml 
+2022-12-15 06:27:55,039 18736 INFO Deepu odoo.modules.loading: loading payment/views/payment_icon_views.xml 
+2022-12-15 06:27:55,115 18736 INFO Deepu odoo.modules.loading: loading payment/views/payment_transaction_views.xml 
+2022-12-15 06:27:55,190 18736 INFO Deepu odoo.modules.loading: loading payment/views/payment_token_views.xml 
+2022-12-15 06:27:55,273 18736 INFO Deepu odoo.modules.loading: loading payment/views/res_partner_views.xml 
+2022-12-15 06:27:55,306 18736 INFO Deepu odoo.modules.loading: loading payment/security/ir.model.access.csv 
+2022-12-15 06:27:55,801 18736 INFO Deepu odoo.modules.loading: loading payment/security/payment_security.xml 
+2022-12-15 06:27:55,961 18736 INFO Deepu odoo.modules.loading: loading payment/wizards/payment_link_wizard_views.xml 
+2022-12-15 06:27:55,975 18736 INFO Deepu odoo.modules.loading: loading payment/wizards/payment_onboarding_views.xml 
+2022-12-15 06:27:56,023 18736 INFO Deepu odoo.modules.loading: Module payment: loading demo 
+2022-12-15 06:27:56,024 18736 INFO Deepu odoo.modules.loading: loading payment/data/payment_demo.xml 
+2022-12-15 06:27:56,428 18736 INFO Deepu odoo.modules.loading: Module payment loaded in 6.69s, 933 queries (+933 other) 
+2022-12-15 06:27:56,429 18736 INFO Deepu odoo.modules.loading: Loading module account (37/50) 
+2022-12-15 06:27:59,011 18736 INFO Deepu odoo.modules.registry: module account: creating or updating database tables 
+2022-12-15 06:28:02,115 18736 INFO Deepu odoo.models: Prepare computation of res.company.account_fiscal_country_id 
+2022-12-15 06:28:02,116 18736 INFO Deepu odoo.models: Prepare computation of res.company.early_pay_discount_computation 
+2022-12-15 06:28:02,116 18736 INFO Deepu odoo.models: Prepare computation of res.company.invoice_terms_html 
+2022-12-15 06:28:11,966 18736 INFO Deepu odoo.modules.loading: loading account/security/account_security.xml 
+2022-12-15 06:28:13,606 18736 INFO Deepu odoo.modules.loading: loading account/security/ir.model.access.csv 
+2022-12-15 06:28:13,843 18736 INFO Deepu odoo.modules.loading: loading account/data/account_data.xml 
+2022-12-15 06:28:14,129 18736 INFO Deepu odoo.modules.loading: loading account/data/digest_data.xml 
+2022-12-15 06:28:14,165 18736 INFO Deepu odoo.modules.loading: loading account/views/account_report.xml 
+2022-12-15 06:28:14,296 18736 INFO Deepu odoo.modules.loading: loading account/data/mail_template_data.xml 
+2022-12-15 06:28:14,343 18736 INFO Deepu odoo.modules.loading: loading account/views/account_payment_view.xml 
+2022-12-15 06:28:14,581 18736 INFO Deepu odoo.modules.loading: loading account/wizard/account_automatic_entry_wizard_views.xml 
+2022-12-15 06:28:14,619 18736 INFO Deepu odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml 
+2022-12-15 06:28:14,697 18736 INFO Deepu odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml 
+2022-12-15 06:28:14,760 18736 INFO Deepu odoo.modules.loading: loading account/wizard/account_resequence_views.xml 
+2022-12-15 06:28:14,792 18736 INFO Deepu odoo.modules.loading: loading account/wizard/account_payment_register_views.xml 
+2022-12-15 06:28:14,808 18736 INFO Deepu odoo.modules.loading: loading account/views/account_move_views.xml 
+2022-12-15 06:28:15,985 18736 INFO Deepu odoo.modules.loading: loading account/wizard/setup_wizards_view.xml 
+2022-12-15 06:28:16,083 18736 INFO Deepu odoo.modules.loading: loading account/views/account_account_views.xml 
+2022-12-15 06:28:16,181 18736 INFO Deepu odoo.modules.loading: loading account/views/account_group_views.xml 
+2022-12-15 06:28:16,247 18736 INFO Deepu odoo.modules.loading: loading account/views/account_journal_views.xml 
+2022-12-15 06:28:16,437 18736 INFO Deepu odoo.modules.loading: loading account/views/account_account_tag_views.xml 
+2022-12-15 06:28:16,473 18736 INFO Deepu odoo.modules.loading: loading account/views/account_bank_statement_views.xml 
+2022-12-15 06:28:16,634 18736 INFO Deepu odoo.modules.loading: loading account/views/account_reconcile_model_views.xml 
+2022-12-15 06:28:16,765 18736 INFO Deepu odoo.modules.loading: loading account/views/account_tax_views.xml 
+2022-12-15 06:28:16,958 18736 INFO Deepu odoo.modules.loading: loading account/views/account_full_reconcile_views.xml 
+2022-12-15 06:28:16,986 18736 INFO Deepu odoo.modules.loading: loading account/views/account_payment_term_views.xml 
+2022-12-15 06:28:17,033 18736 INFO Deepu odoo.modules.loading: loading account/views/account_chart_template_views.xml 
+2022-12-15 06:28:17,149 18736 INFO Deepu odoo.modules.loading: loading account/views/res_partner_bank_views.xml 
+2022-12-15 06:28:17,193 18736 INFO Deepu odoo.modules.loading: loading account/views/report_statement.xml 
+2022-12-15 06:28:17,220 18736 INFO Deepu odoo.modules.loading: loading account/views/terms_template.xml 
+2022-12-15 06:28:17,247 18736 INFO Deepu odoo.modules.loading: loading account/wizard/account_validate_move_view.xml 
+2022-12-15 06:28:17,285 18736 INFO Deepu odoo.modules.loading: loading account/views/res_company_views.xml 
+2022-12-15 06:28:17,370 18736 INFO Deepu odoo.modules.loading: loading account/views/product_view.xml 
+2022-12-15 06:28:17,468 18736 INFO Deepu odoo.modules.loading: loading account/views/account_analytic_plan_views.xml 
+2022-12-15 06:28:17,501 18736 INFO Deepu odoo.modules.loading: loading account/views/account_analytic_account_views.xml 
+2022-12-15 06:28:17,541 18736 INFO Deepu odoo.modules.loading: loading account/views/account_analytic_distribution_model_views.xml 
+2022-12-15 06:28:17,586 18736 INFO Deepu odoo.modules.loading: loading account/views/account_analytic_line_views.xml 
+2022-12-15 06:28:17,708 18736 INFO Deepu odoo.modules.loading: loading account/views/report_invoice.xml 
+2022-12-15 06:28:17,785 18736 INFO Deepu odoo.modules.loading: loading account/report/account_invoice_report_view.xml 
+2022-12-15 06:28:17,954 18736 INFO Deepu odoo.modules.loading: loading account/views/account_cash_rounding_view.xml 
+2022-12-15 06:28:18,030 18736 INFO Deepu odoo.modules.loading: loading account/views/ir_module_views.xml 
+2022-12-15 06:28:18,056 18736 INFO Deepu odoo.modules.loading: loading account/views/res_config_settings_views.xml 
+2022-12-15 06:28:18,217 18736 INFO Deepu odoo.modules.loading: loading account/views/partner_view.xml 
+2022-12-15 06:28:18,401 18736 INFO Deepu odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml 
+2022-12-15 06:28:18,485 18736 INFO Deepu odoo.modules.loading: loading account/views/account_portal_templates.xml 
+2022-12-15 06:28:18,596 18736 INFO Deepu odoo.modules.loading: loading account/views/report_payment_receipt_templates.xml 
+2022-12-15 06:28:18,656 18736 INFO Deepu odoo.modules.loading: loading account/views/account_onboarding_templates.xml 
+2022-12-15 06:28:18,771 18736 INFO Deepu odoo.modules.loading: loading account/data/service_cron.xml 
+2022-12-15 06:28:18,784 18736 INFO Deepu odoo.modules.loading: loading account/views/account_incoterms_view.xml 
+2022-12-15 06:28:18,860 18736 INFO Deepu odoo.modules.loading: loading account/data/account_incoterms_data.xml 
+2022-12-15 06:28:18,913 18736 INFO Deepu odoo.modules.loading: loading account/views/digest_views.xml 
+2022-12-15 06:28:18,933 18736 INFO Deepu odoo.modules.loading: loading account/wizard/account_invoice_send_views.xml 
+2022-12-15 06:28:19,003 18736 INFO Deepu odoo.modules.loading: loading account/report/account_hash_integrity_templates.xml 
+2022-12-15 06:28:19,050 18736 INFO Deepu odoo.modules.loading: loading account/views/res_currency.xml 
+2022-12-15 06:28:19,086 18736 INFO Deepu odoo.modules.loading: loading account/views/account_menuitem.xml 
+2022-12-15 06:28:19,653 18736 INFO Deepu odoo.modules.loading: loading account/wizard/account_tour_upload_bill.xml 
+2022-12-15 06:28:19,691 18736 INFO Deepu odoo.modules.loading: loading account/wizard/accrued_orders.xml 
+2022-12-15 06:28:19,725 18736 INFO Deepu odoo.modules.loading: loading account/views/bill_preview_template.xml 
+2022-12-15 06:28:19,769 18736 INFO Deepu odoo.modules.loading: loading account/data/account_reports_data.xml 
+2022-12-15 06:28:19,829 18736 INFO Deepu odoo.modules.loading: Module account: loading demo 
+2022-12-15 06:28:19,829 18736 INFO Deepu odoo.modules.loading: loading account/demo/account_demo.xml 
+2022-12-15 06:28:20,846 18736 INFO Deepu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Indian - Accounting'] to user __system__ #1 via 127.0.0.1 
+2022-12-15 06:28:21,396 18736 INFO Deepu odoo.modules.loading: Module account loaded in 24.97s, 6270 queries (+6270 other) 
+2022-12-15 06:28:21,396 18736 INFO Deepu odoo.modules.loading: Loading module stock (38/50) 
+2022-12-15 06:28:21,699 18736 INFO Deepu odoo.modules.registry: module stock: creating or updating database tables 
+2022-12-15 06:28:22,972 18736 INFO Deepu odoo.models: Prepare computation of product.template.tracking 
+2022-12-15 06:28:30,450 18736 INFO Deepu odoo.modules.loading: loading stock/security/stock_security.xml 
+2022-12-15 06:28:31,884 18736 INFO Deepu odoo.modules.loading: loading stock/security/ir.model.access.csv 
+2022-12-15 06:28:32,096 18736 INFO Deepu odoo.modules.loading: loading stock/data/digest_data.xml 
+2022-12-15 06:28:32,142 18736 INFO Deepu odoo.modules.loading: loading stock/data/mail_templates.xml 
+2022-12-15 06:28:32,211 18736 INFO Deepu odoo.modules.loading: loading stock/data/default_barcode_patterns.xml 
+2022-12-15 06:28:32,270 18736 INFO Deepu odoo.modules.loading: loading stock/data/stock_data.xml 
+2022-12-15 06:28:32,943 18736 INFO Deepu odoo.modules.loading: loading stock/data/stock_sequence_data.xml 
+2022-12-15 06:28:33,026 18736 INFO Deepu odoo.modules.loading: loading stock/data/stock_traceability_report_data.xml 
+2022-12-15 06:28:33,051 18736 INFO Deepu odoo.modules.loading: loading stock/report/report_stock_forecasted.xml 
+2022-12-15 06:28:33,065 18736 INFO Deepu odoo.modules.loading: loading stock/report/report_stock_quantity.xml 
+2022-12-15 06:28:33,089 18736 INFO Deepu odoo.modules.loading: loading stock/report/report_stock_reception.xml 
+2022-12-15 06:28:33,195 18736 INFO Deepu odoo.modules.loading: loading stock/report/stock_report_views.xml 
+2022-12-15 06:28:33,296 18736 INFO Deepu odoo.modules.loading: loading stock/report/report_package_barcode.xml 
+2022-12-15 06:28:33,352 18736 INFO Deepu odoo.modules.loading: loading stock/report/report_lot_barcode.xml 
+2022-12-15 06:28:33,399 18736 INFO Deepu odoo.modules.loading: loading stock/report/report_location_barcode.xml 
+2022-12-15 06:28:33,463 18736 INFO Deepu odoo.modules.loading: loading stock/report/report_stockpicking_operations.xml 
+2022-12-15 06:28:33,519 18736 INFO Deepu odoo.modules.loading: loading stock/report/report_deliveryslip.xml 
+2022-12-15 06:28:33,612 18736 INFO Deepu odoo.modules.loading: loading stock/report/report_stockinventory.xml 
+2022-12-15 06:28:33,639 18736 INFO Deepu odoo.modules.loading: loading stock/report/report_stock_rule.xml 
+2022-12-15 06:28:33,720 18736 INFO Deepu odoo.modules.loading: loading stock/report/package_templates.xml 
+2022-12-15 06:28:33,768 18736 INFO Deepu odoo.modules.loading: loading stock/report/picking_templates.xml 
+2022-12-15 06:28:33,800 18736 INFO Deepu odoo.modules.loading: loading stock/report/product_templates.xml 
+2022-12-15 06:28:33,847 18736 INFO Deepu odoo.modules.loading: loading stock/report/product_packaging.xml 
+2022-12-15 06:28:33,900 18736 INFO Deepu odoo.modules.loading: loading stock/data/mail_template_data.xml 
+2022-12-15 06:28:33,955 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_menu_views.xml 
+2022-12-15 06:28:34,149 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_assign_serial_views.xml 
+2022-12-15 06:28:34,217 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_change_product_qty_views.xml 
+2022-12-15 06:28:34,273 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_picking_return_views.xml 
+2022-12-15 06:28:34,316 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_scheduler_compute_views.xml 
+2022-12-15 06:28:34,366 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_immediate_transfer_views.xml 
+2022-12-15 06:28:34,397 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_inventory_conflict.xml 
+2022-12-15 06:28:34,427 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_backorder_confirmation_views.xml 
+2022-12-15 06:28:34,440 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_quantity_history.xml 
+2022-12-15 06:28:34,475 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_request_count.xml 
+2022-12-15 06:28:34,524 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_replenishment_info.xml 
+2022-12-15 06:28:34,562 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_rules_report_views.xml 
+2022-12-15 06:28:34,590 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_warn_insufficient_qty_views.xml 
+2022-12-15 06:28:34,681 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/product_replenish_views.xml 
+2022-12-15 06:28:34,748 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/product_label_layout_views.xml 
+2022-12-15 06:28:34,765 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_track_confirmation_views.xml 
+2022-12-15 06:28:34,793 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_orderpoint_snooze_views.xml 
+2022-12-15 06:28:34,842 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_package_destination_views.xml 
+2022-12-15 06:28:34,881 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_inventory_adjustment_name.xml 
+2022-12-15 06:28:34,898 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_inventory_warning.xml 
+2022-12-15 06:28:34,951 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_label_type.xml 
+2022-12-15 06:28:34,997 18736 INFO Deepu odoo.modules.loading: loading stock/wizard/stock_lot_label_layout.xml 
+2022-12-15 06:28:35,044 18736 INFO Deepu odoo.modules.loading: loading stock/views/res_partner_views.xml 
+2022-12-15 06:28:35,149 18736 INFO Deepu odoo.modules.loading: loading stock/views/product_strategy_views.xml 
+2022-12-15 06:28:35,235 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_lot_views.xml 
+2022-12-15 06:28:35,323 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_scrap_views.xml 
+2022-12-15 06:28:35,493 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_quant_views.xml 
+2022-12-15 06:28:37,080 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_warehouse_views.xml 
+2022-12-15 06:28:37,193 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_move_line_views.xml 
+2022-12-15 06:28:37,286 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_picking_views.xml 
+2022-12-15 06:28:37,568 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_picking_type_views.xml 
+2022-12-15 06:28:37,648 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_move_views.xml 
+2022-12-15 06:28:37,994 18736 INFO Deepu odoo.modules.loading: loading stock/views/product_views.xml 
+2022-12-15 06:28:38,430 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_location_views.xml 
+2022-12-15 06:28:38,688 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_orderpoint_views.xml 
+2022-12-15 06:28:38,879 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_storage_category_views.xml 
+2022-12-15 06:28:38,930 18736 INFO Deepu odoo.modules.loading: loading stock/views/res_config_settings_views.xml 
+2022-12-15 06:28:39,100 18736 INFO Deepu odoo.modules.loading: loading stock/views/report_stock_traceability.xml 
+2022-12-15 06:28:39,141 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_template.xml 
+2022-12-15 06:28:39,162 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_rule_views.xml 
+2022-12-15 06:28:39,333 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_package_level_views.xml 
+2022-12-15 06:28:39,394 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_package_type_view.xml 
+2022-12-15 06:28:39,459 18736 INFO Deepu odoo.modules.loading: loading stock/views/stock_forecasted.xml 
+2022-12-15 06:28:39,468 18736 INFO Deepu odoo.modules.loading: Module stock: loading demo 
+2022-12-15 06:28:39,469 18736 INFO Deepu odoo.modules.loading: loading stock/data/stock_demo_pre.xml 
+2022-12-15 06:28:40,212 18736 INFO Deepu odoo.modules.loading: loading stock/data/stock_demo.xml 
+2022-12-15 06:28:43,159 18736 INFO Deepu odoo.modules.loading: loading stock/data/stock_demo2.xml 
+2022-12-15 06:28:47,714 18736 INFO Deepu odoo.modules.loading: loading stock/data/stock_orderpoint_demo.xml 
+2022-12-15 06:28:47,854 18736 INFO Deepu odoo.modules.loading: loading stock/data/stock_storage_category_demo.xml 
+2022-12-15 06:28:48,353 18736 INFO Deepu odoo.modules.loading: Module stock loaded in 26.96s, 7973 queries (+7973 other) 
+2022-12-15 06:28:48,353 18736 INFO Deepu odoo.modules.loading: Loading module account_edi (39/50) 
+2022-12-15 06:28:49,027 18736 INFO Deepu odoo.modules.registry: module account_edi: creating or updating database tables 
+2022-12-15 06:28:50,444 18736 INFO Deepu odoo.modules.loading: loading account_edi/security/ir.model.access.csv 
+2022-12-15 06:28:50,493 18736 INFO Deepu odoo.modules.loading: loading account_edi/views/account_edi_document_views.xml 
+2022-12-15 06:28:50,515 18736 INFO Deepu odoo.modules.loading: loading account_edi/views/account_move_views.xml 
+2022-12-15 06:28:50,754 18736 INFO Deepu odoo.modules.loading: loading account_edi/views/account_payment_views.xml 
+2022-12-15 06:28:50,785 18736 INFO Deepu odoo.modules.loading: loading account_edi/views/account_journal_views.xml 
+2022-12-15 06:28:50,836 18736 INFO Deepu odoo.modules.loading: loading account_edi/data/cron.xml 
+2022-12-15 06:28:50,979 18736 INFO Deepu odoo.modules.loading: Module account_edi loaded in 2.63s, 294 queries (+294 other) 
+2022-12-15 06:28:50,979 18736 INFO Deepu odoo.modules.loading: Loading module account_payment (40/50) 
+2022-12-15 06:28:51,618 18736 INFO Deepu odoo.modules.registry: module account_payment: creating or updating database tables 
+2022-12-15 06:28:52,903 18736 INFO Deepu odoo.modules.loading: loading account_payment/security/ir.model.access.csv 
+2022-12-15 06:28:52,958 18736 INFO Deepu odoo.modules.loading: loading account_payment/security/ir_rules.xml 
+2022-12-15 06:28:52,994 18736 INFO Deepu odoo.modules.loading: loading account_payment/views/account_payment_menus.xml 
+2022-12-15 06:28:53,124 18736 INFO Deepu odoo.modules.loading: loading account_payment/views/account_portal_templates.xml 
+2022-12-15 06:28:53,250 18736 INFO Deepu odoo.modules.loading: loading account_payment/views/payment_templates.xml 
+2022-12-15 06:28:53,304 18736 INFO Deepu odoo.modules.loading: loading account_payment/views/account_move_views.xml 
+2022-12-15 06:28:53,369 18736 INFO Deepu odoo.modules.loading: loading account_payment/views/account_journal_views.xml 
+2022-12-15 06:28:53,427 18736 INFO Deepu odoo.modules.loading: loading account_payment/views/account_payment_views.xml 
+2022-12-15 06:28:53,478 18736 INFO Deepu odoo.modules.loading: loading account_payment/views/payment_provider_views.xml 
+2022-12-15 06:28:53,505 18736 INFO Deepu odoo.modules.loading: loading account_payment/views/payment_transaction_views.xml 
+2022-12-15 06:28:53,520 18736 INFO Deepu odoo.modules.loading: loading account_payment/wizards/account_payment_register_views.xml 
+2022-12-15 06:28:53,573 18736 INFO Deepu odoo.modules.loading: loading account_payment/wizards/payment_link_wizard_views.xml 
+2022-12-15 06:28:53,631 18736 INFO Deepu odoo.modules.loading: loading account_payment/wizards/payment_refund_wizard_views.xml 
+2022-12-15 06:28:53,750 18736 INFO Deepu odoo.modules.loading: Module account_payment loaded in 2.77s, 418 queries (+418 other) 
+2022-12-15 06:28:53,750 18736 INFO Deepu odoo.modules.loading: Loading module account_sequence (41/50) 
+2022-12-15 06:28:54,572 18736 INFO Deepu odoo.modules.registry: module account_sequence: creating or updating database tables 
+2022-12-15 06:28:55,581 18736 INFO Deepu odoo.modules.loading: Module account_sequence loaded in 1.83s, 56 queries (+56 other) 
+2022-12-15 06:28:55,581 18736 INFO Deepu odoo.modules.loading: Loading module snailmail_account (42/50) 
+2022-12-15 06:28:56,156 18736 INFO Deepu odoo.modules.registry: module snailmail_account: creating or updating database tables 
+2022-12-15 06:28:56,931 18736 INFO Deepu odoo.modules.loading: loading snailmail_account/views/res_config_settings_views.xml 
+2022-12-15 06:28:57,069 18736 INFO Deepu odoo.modules.loading: loading snailmail_account/wizard/account_invoice_send_views.xml 
+2022-12-15 06:28:57,106 18736 INFO Deepu odoo.modules.loading: loading snailmail_account/security/ir.model.access.csv 
+2022-12-15 06:28:57,165 18736 INFO Deepu odoo.modules.loading: Module snailmail_account loaded in 1.58s, 112 queries (+112 other) 
+2022-12-15 06:28:57,165 18736 INFO Deepu odoo.modules.loading: Loading module spreadsheet_account (43/50) 
+2022-12-15 06:28:57,527 18736 INFO Deepu odoo.modules.registry: module spreadsheet_account: creating or updating database tables 
+2022-12-15 06:28:58,678 18736 INFO Deepu odoo.modules.loading: Module spreadsheet_account loaded in 1.51s, 48 queries (+48 other) 
+2022-12-15 06:28:58,678 18736 INFO Deepu odoo.modules.loading: Loading module spreadsheet_dashboard_account (44/50) 
+2022-12-15 06:28:58,915 18736 INFO Deepu odoo.modules.loading: loading spreadsheet_dashboard_account/data/dashboards.xml 
+2022-12-15 06:28:59,563 18736 INFO Deepu odoo.modules.loading: Module spreadsheet_dashboard_account loaded in 0.88s, 27 queries (+27 other) 
+2022-12-15 06:28:59,564 18736 INFO Deepu odoo.modules.loading: Loading module stock_account (45/50) 
+2022-12-15 06:29:00,414 18736 INFO Deepu odoo.modules.registry: module stock_account: creating or updating database tables 
+2022-12-15 06:29:02,394 18736 INFO Deepu odoo.modules.loading: loading stock_account/security/stock_account_security.xml 
+2022-12-15 06:29:02,525 18736 INFO Deepu odoo.modules.loading: loading stock_account/security/ir.model.access.csv 
+2022-12-15 06:29:02,548 18736 INFO Deepu odoo.modules.loading: loading stock_account/data/stock_account_data.xml 
+2022-12-15 06:29:02,614 18736 INFO Deepu odoo.modules.loading: loading stock_account/views/stock_account_views.xml 
+2022-12-15 06:29:04,189 18736 INFO Deepu odoo.modules.loading: loading stock_account/views/res_config_settings_views.xml 
+2022-12-15 06:29:04,277 18736 INFO Deepu odoo.modules.loading: loading stock_account/data/product_data.xml 
+2022-12-15 06:29:04,343 18736 INFO Deepu odoo.modules.loading: loading stock_account/views/report_invoice.xml 
+2022-12-15 06:29:04,386 18736 INFO Deepu odoo.modules.loading: loading stock_account/views/stock_valuation_layer_views.xml 
+2022-12-15 06:29:04,496 18736 INFO Deepu odoo.modules.loading: loading stock_account/views/stock_quant_views.xml 
+2022-12-15 06:29:04,581 18736 INFO Deepu odoo.modules.loading: loading stock_account/views/product_views.xml 
+2022-12-15 06:29:04,665 18736 INFO Deepu odoo.modules.loading: loading stock_account/wizard/stock_request_count.xml 
+2022-12-15 06:29:04,712 18736 INFO Deepu odoo.modules.loading: loading stock_account/wizard/stock_valuation_layer_revaluation_views.xml 
+2022-12-15 06:29:04,760 18736 INFO Deepu odoo.modules.loading: loading stock_account/wizard/stock_quantity_history.xml 
+2022-12-15 06:29:04,815 18736 INFO Deepu odoo.modules.loading: loading stock_account/report/report_stock_forecasted.xml 
+2022-12-15 06:29:04,873 18736 INFO Deepu odoo.modules.loading: Module stock_account loaded in 5.31s, 621 queries (+621 other) 
+2022-12-15 06:29:04,874 18736 INFO Deepu odoo.modules.loading: Loading module stock_sms (46/50) 
+2022-12-15 06:29:05,305 18736 INFO Deepu odoo.modules.registry: module stock_sms: creating or updating database tables 
+2022-12-15 06:29:06,045 18736 INFO Deepu odoo.modules.loading: loading stock_sms/data/sms_data.xml 
+2022-12-15 06:29:06,084 18736 INFO Deepu odoo.modules.loading: loading stock_sms/views/res_config_settings_views.xml 
+2022-12-15 06:29:06,323 18736 INFO Deepu odoo.modules.loading: loading stock_sms/wizard/confirm_stock_sms_views.xml 
+2022-12-15 06:29:06,352 18736 INFO Deepu odoo.modules.loading: loading stock_sms/security/ir.model.access.csv 
+2022-12-15 06:29:06,361 18736 INFO Deepu odoo.modules.loading: loading stock_sms/security/sms_security.xml 
+2022-12-15 06:29:06,567 18736 INFO Deepu odoo.modules.loading: Module stock_sms loaded in 1.69s, 187 queries (+187 other) 
+2022-12-15 06:29:06,567 18736 INFO Deepu odoo.modules.loading: Loading module account_edi_ubl_cii (47/50) 
+2022-12-15 06:29:10,852 18736 INFO Deepu odoo.modules.registry: module account_edi_ubl_cii: creating or updating database tables 
+2022-12-15 06:29:11,343 18736 INFO Deepu odoo.modules.loading: loading account_edi_ubl_cii/data/account_edi_data.xml 
+2022-12-15 06:29:11,378 18736 INFO Deepu odoo.modules.loading: loading account_edi_ubl_cii/data/cii_22_templates.xml 
+2022-12-15 06:29:11,492 18736 INFO Deepu odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_20_templates.xml 
+2022-12-15 06:29:11,596 18736 INFO Deepu odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_21_templates.xml 
+2022-12-15 06:29:11,699 18736 INFO Deepu odoo.modules.loading: Module account_edi_ubl_cii loaded in 5.13s, 188 queries (+188 other) 
+2022-12-15 06:29:11,700 18736 INFO Deepu odoo.modules.loading: Loading module point_of_sale (48/50) 
+2022-12-15 06:29:12,976 18736 INFO Deepu odoo.modules.registry: module point_of_sale: creating or updating database tables 
+2022-12-15 06:29:17,259 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/security/point_of_sale_security.xml 
+2022-12-15 06:29:17,888 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/security/ir.model.access.csv 
+2022-12-15 06:29:18,080 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/data/default_barcode_patterns.xml 
+2022-12-15 06:29:18,139 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/data/digest_data.xml 
+2022-12-15 06:29:18,152 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/wizard/pos_details.xml 
+2022-12-15 06:29:18,186 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/wizard/pos_payment.xml 
+2022-12-15 06:29:18,221 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/wizard/pos_close_session_wizard.xml 
+2022-12-15 06:29:18,237 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/wizard/pos_session_check_product_wizard.xml 
+2022-12-15 06:29:18,247 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/pos_assets_common.xml 
+2022-12-15 06:29:18,284 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/pos_assets_index.xml 
+2022-12-15 06:29:18,358 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/pos_assets_qunit.xml 
+2022-12-15 06:29:18,441 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/point_of_sale_report.xml 
+2022-12-15 06:29:18,474 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/point_of_sale_view.xml 
+2022-12-15 06:29:18,586 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/pos_order_view.xml 
+2022-12-15 06:29:18,810 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/pos_category_view.xml 
+2022-12-15 06:29:18,943 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/product_view.xml 
+2022-12-15 06:29:19,210 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/account_journal_view.xml 
+2022-12-15 06:29:19,231 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/pos_payment_method_views.xml 
+2022-12-15 06:29:19,358 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/pos_payment_views.xml 
+2022-12-15 06:29:19,430 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/pos_config_view.xml 
+2022-12-15 06:29:19,528 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/pos_bill_view.xml 
+2022-12-15 06:29:19,573 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/pos_session_view.xml 
+2022-12-15 06:29:19,681 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/point_of_sale_sequence.xml 
+2022-12-15 06:29:19,721 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/data/point_of_sale_data.xml 
+2022-12-15 06:29:20,372 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/pos_order_report_view.xml 
+2022-12-15 06:29:20,485 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/account_statement_view.xml 
+2022-12-15 06:29:20,532 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/digest_views.xml 
+2022-12-15 06:29:20,573 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/res_partner_view.xml 
+2022-12-15 06:29:20,612 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/report_userlabel.xml 
+2022-12-15 06:29:20,640 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/report_saledetails.xml 
+2022-12-15 06:29:20,687 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/point_of_sale_dashboard.xml 
+2022-12-15 06:29:20,774 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/report_invoice.xml 
+2022-12-15 06:29:20,818 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/res_config_settings_views.xml 
+2022-12-15 06:29:20,980 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/views/pos_ticket_view.xml 
+2022-12-15 06:29:21,007 18736 INFO Deepu odoo.modules.loading: Module point_of_sale: loading demo 
+2022-12-15 06:29:21,009 18736 INFO Deepu odoo.modules.loading: loading point_of_sale/data/point_of_sale_demo.xml 
+2022-12-15 06:29:24,736 18736 INFO Deepu odoo.modules.loading: Module point_of_sale loaded in 13.04s, 3627 queries (+3627 other) 
+2022-12-15 06:29:24,737 18736 INFO Deepu odoo.modules.loading: Loading module spreadsheet_dashboard_stock_account (49/50) 
+2022-12-15 06:29:25,098 18736 INFO Deepu odoo.modules.loading: loading spreadsheet_dashboard_stock_account/data/dashboards.xml 
+2022-12-15 06:29:25,743 18736 INFO Deepu odoo.modules.loading: Module spreadsheet_dashboard_stock_account loaded in 1.01s, 26 queries (+26 other) 
+2022-12-15 06:29:25,743 18736 INFO Deepu odoo.modules.loading: Loading module pos_epson_printer (50/50) 
+2022-12-15 06:29:26,352 18736 INFO Deepu odoo.modules.registry: module pos_epson_printer: creating or updating database tables 
+2022-12-15 06:29:27,053 18736 INFO Deepu odoo.modules.loading: loading pos_epson_printer/views/pos_config_views.xml 
+2022-12-15 06:29:27,137 18736 INFO Deepu odoo.modules.loading: loading pos_epson_printer/views/res_config_settings_views.xml 
+2022-12-15 06:29:27,274 18736 INFO Deepu odoo.modules.loading: Module pos_epson_printer loaded in 1.53s, 86 queries (+86 other) 
+2022-12-15 06:29:27,275 18736 INFO Deepu odoo.modules.loading: 50 modules loaded in 149.20s, 33111 queries (+33111 extra) 
+2022-12-15 06:29:27,281 18736 INFO Deepu odoo.modules.loading: loading 73 modules... 
+2022-12-15 06:29:27,282 18736 INFO Deepu odoo.modules.loading: Loading module social_media (2/73) 
+2022-12-15 06:29:27,641 18736 INFO Deepu odoo.modules.registry: module social_media: creating or updating database tables 
+2022-12-15 06:29:28,162 18736 INFO Deepu odoo.modules.loading: loading social_media/views/res_company_views.xml 
+2022-12-15 06:29:28,179 18736 INFO Deepu odoo.modules.loading: Module social_media: loading demo 
+2022-12-15 06:29:28,179 18736 INFO Deepu odoo.modules.loading: loading social_media/demo/res_company_demo.xml 
+2022-12-15 06:29:28,586 18736 INFO Deepu odoo.modules.loading: Module social_media loaded in 1.30s, 84 queries (+84 other) 
+2022-12-15 06:29:28,587 18736 INFO Deepu odoo.modules.loading: Loading module utm (12/73) 
+2022-12-15 06:29:28,975 18736 INFO Deepu odoo.modules.registry: module utm: creating or updating database tables 
+2022-12-15 06:29:30,043 18736 INFO Deepu odoo.modules.loading: loading utm/data/utm_medium_data.xml 
+2022-12-15 06:29:30,135 18736 INFO Deepu odoo.modules.loading: loading utm/data/utm_source_data.xml 
+2022-12-15 06:29:30,203 18736 INFO Deepu odoo.modules.loading: loading utm/data/utm_stage_data.xml 
+2022-12-15 06:29:30,251 18736 INFO Deepu odoo.modules.loading: loading utm/data/utm_tag_data.xml 
+2022-12-15 06:29:30,285 18736 INFO Deepu odoo.modules.loading: loading utm/views/utm_campaign_views.xml 
+2022-12-15 06:29:30,390 18736 INFO Deepu odoo.modules.loading: loading utm/views/utm_medium_views.xml 
+2022-12-15 06:29:30,434 18736 INFO Deepu odoo.modules.loading: loading utm/views/utm_source_views.xml 
+2022-12-15 06:29:30,461 18736 INFO Deepu odoo.modules.loading: loading utm/views/utm_stage_views.xml 
+2022-12-15 06:29:30,550 18736 INFO Deepu odoo.modules.loading: loading utm/views/utm_tag_views.xml 
+2022-12-15 06:29:30,604 18736 INFO Deepu odoo.modules.loading: loading utm/views/utm_menus.xml 
+2022-12-15 06:29:30,690 18736 INFO Deepu odoo.modules.loading: loading utm/security/ir.model.access.csv 
+2022-12-15 06:29:30,738 18736 INFO Deepu odoo.modules.loading: Module utm: loading demo 
+2022-12-15 06:29:30,739 18736 INFO Deepu odoo.modules.loading: loading utm/data/utm_campaign_demo.xml 
+2022-12-15 06:29:30,826 18736 INFO Deepu odoo.modules.loading: loading utm/data/utm_stage_demo.xml 
+2022-12-15 06:29:30,898 18736 INFO Deepu odoo.modules.loading: Module utm loaded in 2.31s, 436 queries (+436 other) 
+2022-12-15 06:29:30,899 18736 INFO Deepu odoo.modules.loading: Loading module contacts (24/73) 
+2022-12-15 06:29:31,221 18736 INFO Deepu odoo.modules.registry: module contacts: creating or updating database tables 
+2022-12-15 06:29:31,312 18736 INFO Deepu odoo.modules.loading: loading contacts/views/contact_views.xml 
+2022-12-15 06:29:32,236 18736 INFO Deepu odoo.modules.loading: Module contacts loaded in 1.34s, 217 queries (+217 other) 
+2022-12-15 06:29:32,238 18736 INFO Deepu odoo.modules.loading: Loading module gamification (25/73) 
+2022-12-15 06:29:32,905 18736 INFO Deepu odoo.modules.registry: module gamification: creating or updating database tables 
+2022-12-15 06:29:34,979 18736 INFO Deepu odoo.modules.loading: loading gamification/wizard/update_goal.xml 
+2022-12-15 06:29:35,017 18736 INFO Deepu odoo.modules.loading: loading gamification/wizard/grant_badge.xml 
+2022-12-15 06:29:35,063 18736 INFO Deepu odoo.modules.loading: loading gamification/views/res_users_views.xml 
+2022-12-15 06:29:35,119 18736 INFO Deepu odoo.modules.loading: loading gamification/views/gamification_karma_rank_views.xml 
+2022-12-15 06:29:35,183 18736 INFO Deepu odoo.modules.loading: loading gamification/views/gamification_karma_tracking_views.xml 
+2022-12-15 06:29:35,230 18736 INFO Deepu odoo.modules.loading: loading gamification/views/gamification_badge_views.xml 
+2022-12-15 06:29:35,291 18736 INFO Deepu odoo.modules.loading: loading gamification/views/gamification_badge_user_views.xml 
+2022-12-15 06:29:35,333 18736 INFO Deepu odoo.modules.loading: loading gamification/views/gamification_goal_views.xml 
+2022-12-15 06:29:35,439 18736 INFO Deepu odoo.modules.loading: loading gamification/views/gamification_goal_definition_views.xml 
+2022-12-15 06:29:35,474 18736 INFO Deepu odoo.modules.loading: loading gamification/views/gamification_challenge_views.xml 
+2022-12-15 06:29:35,603 18736 INFO Deepu odoo.modules.loading: loading gamification/views/gamification_challenge_line_views.xml 
+2022-12-15 06:29:35,636 18736 INFO Deepu odoo.modules.loading: loading gamification/views/gamification_menus.xml 
+2022-12-15 06:29:35,701 18736 INFO Deepu odoo.modules.loading: loading gamification/security/gamification_security.xml 
+2022-12-15 06:29:35,762 18736 INFO Deepu odoo.modules.loading: loading gamification/security/ir.model.access.csv 
+2022-12-15 06:29:35,853 18736 INFO Deepu odoo.modules.loading: loading gamification/data/ir_cron_data.xml 
+2022-12-15 06:29:35,915 18736 INFO Deepu odoo.modules.loading: loading gamification/data/mail_template_data.xml 
+2022-12-15 06:29:35,970 18736 INFO Deepu odoo.modules.loading: loading gamification/data/gamification_badge_data.xml 
+2022-12-15 06:29:36,192 18736 INFO Deepu odoo.modules.loading: loading gamification/data/gamification_challenge_data.xml 
+2022-12-15 06:29:36,360 18736 INFO Deepu odoo.modules.loading: loading gamification/data/gamification_karma_rank_data.xml 
+2022-12-15 06:29:36,643 18736 INFO Deepu odoo.modules.loading: Module gamification: loading demo 
+2022-12-15 06:29:36,643 18736 INFO Deepu odoo.modules.loading: loading gamification/data/gamification_karma_rank_demo.xml 
+2022-12-15 06:29:36,668 18736 INFO Deepu odoo.modules.loading: loading gamification/data/gamification_karma_tracking_demo.xml 
+2022-12-15 06:29:37,283 18736 INFO Deepu odoo.models.unlink: User #1 deleted gamification.karma.tracking records with IDs: [8] 
+2022-12-15 06:29:37,305 18736 INFO Deepu odoo.models.unlink: User #1 deleted gamification.karma.tracking records with IDs: [14] 
+2022-12-15 06:29:37,345 18736 INFO Deepu odoo.models.unlink: User #1 deleted gamification.karma.tracking records with IDs: [2] 
+2022-12-15 06:29:37,473 18736 INFO Deepu odoo.modules.loading: Module gamification loaded in 5.24s, 1058 queries (+1058 other) 
+2022-12-15 06:29:37,473 18736 INFO Deepu odoo.modules.loading: Loading module hr (27/73) 
+2022-12-15 06:29:38,584 18736 INFO Deepu odoo.modules.registry: module hr: creating or updating database tables 
+2022-12-15 06:29:47,261 18736 INFO Deepu odoo.modules.loading: loading hr/security/hr_security.xml 
+2022-12-15 06:29:48,016 18736 INFO Deepu odoo.modules.loading: loading hr/security/ir.model.access.csv 
+2022-12-15 06:29:48,085 18736 INFO Deepu odoo.modules.loading: loading hr/wizard/hr_plan_wizard_views.xml 
+2022-12-15 06:29:48,126 18736 INFO Deepu odoo.modules.loading: loading hr/wizard/hr_departure_wizard_views.xml 
+2022-12-15 06:29:48,202 18736 INFO Deepu odoo.modules.loading: loading hr/views/hr_departure_reason_views.xml 
+2022-12-15 06:29:48,239 18736 INFO Deepu odoo.modules.loading: loading hr/views/hr_contract_type_views.xml 
+2022-12-15 06:29:48,295 18736 INFO Deepu odoo.modules.loading: loading hr/views/hr_job_views.xml 
+2022-12-15 06:29:48,340 18736 INFO Deepu odoo.modules.loading: loading hr/views/hr_plan_views.xml 
+2022-12-15 06:29:48,462 18736 INFO Deepu odoo.modules.loading: loading hr/views/hr_employee_category_views.xml 
+2022-12-15 06:29:48,499 18736 INFO Deepu odoo.modules.loading: loading hr/views/hr_employee_public_views.xml 
+2022-12-15 06:29:48,627 18736 INFO Deepu odoo.modules.loading: loading hr/report/hr_employee_badge.xml 
+2022-12-15 06:29:48,657 18736 INFO Deepu odoo.modules.loading: loading hr/views/hr_employee_views.xml 
+2022-12-15 06:29:48,913 18736 INFO Deepu odoo.modules.loading: loading hr/views/hr_department_views.xml 
+2022-12-15 06:29:49,015 18736 INFO Deepu odoo.modules.loading: loading hr/views/hr_work_location_views.xml 
+2022-12-15 06:29:49,070 18736 INFO Deepu odoo.modules.loading: loading hr/views/hr_views.xml 
+2022-12-15 06:29:49,346 18736 INFO Deepu odoo.modules.loading: loading hr/views/res_config_settings_views.xml 
+2022-12-15 06:29:49,521 18736 INFO Deepu odoo.modules.loading: loading hr/views/mail_channel_views.xml 
+2022-12-15 06:29:49,555 18736 INFO Deepu odoo.modules.loading: loading hr/views/res_users.xml 
+2022-12-15 06:29:49,756 18736 INFO Deepu odoo.modules.loading: loading hr/views/res_partner_views.xml 
+2022-12-15 06:29:49,822 18736 INFO Deepu odoo.modules.loading: loading hr/data/hr_data.xml 
+2022-12-15 06:29:50,363 18736 INFO Deepu odoo.modules.loading: Module hr: loading demo 
+2022-12-15 06:29:50,363 18736 INFO Deepu odoo.modules.loading: loading hr/data/hr_demo.xml 
+2022-12-15 06:29:54,867 18736 INFO Deepu odoo.modules.loading: Module hr loaded in 17.39s, 4686 queries (+4686 other) 
+2022-12-15 06:29:54,867 18736 INFO Deepu odoo.modules.loading: Loading module link_tracker (29/73) 
+2022-12-15 06:29:55,276 18736 INFO Deepu odoo.modules.registry: module link_tracker: creating or updating database tables 
+2022-12-15 06:29:56,576 18736 INFO Deepu odoo.modules.loading: loading link_tracker/views/link_tracker_views.xml 
+2022-12-15 06:29:56,751 18736 INFO Deepu odoo.modules.loading: loading link_tracker/views/utm_campaign_views.xml 
+2022-12-15 06:29:56,808 18736 INFO Deepu odoo.modules.loading: loading link_tracker/security/ir.model.access.csv 
+2022-12-15 06:29:56,979 18736 INFO Deepu odoo.modules.loading: Module link_tracker loaded in 2.11s, 255 queries (+255 other) 
+2022-12-15 06:29:56,979 18736 INFO Deepu odoo.modules.loading: Loading module rating (34/73) 
+2022-12-15 06:29:57,502 18736 INFO Deepu odoo.modules.registry: module rating: creating or updating database tables 
+2022-12-15 06:29:59,379 18736 INFO Deepu odoo.modules.loading: loading rating/views/rating_rating_views.xml 
+2022-12-15 06:29:59,516 18736 INFO Deepu odoo.modules.loading: loading rating/views/rating_templates.xml 
+2022-12-15 06:29:59,558 18736 INFO Deepu odoo.modules.loading: loading rating/views/mail_message_views.xml 
+2022-12-15 06:29:59,594 18736 INFO Deepu odoo.modules.loading: loading rating/security/ir.model.access.csv 
+2022-12-15 06:29:59,684 18736 INFO Deepu odoo.modules.loading: Module rating loaded in 2.71s, 520 queries (+520 other) 
+2022-12-15 06:29:59,684 18736 INFO Deepu odoo.modules.loading: Loading module hr_gamification (37/73) 
+2022-12-15 06:30:00,197 18736 INFO Deepu odoo.modules.registry: module hr_gamification: creating or updating database tables 
+2022-12-15 06:30:01,129 18736 INFO Deepu odoo.modules.loading: loading hr_gamification/security/gamification_security.xml 
+2022-12-15 06:30:01,180 18736 INFO Deepu odoo.modules.loading: loading hr_gamification/security/ir.model.access.csv 
+2022-12-15 06:30:01,286 18736 INFO Deepu odoo.modules.loading: loading hr_gamification/wizard/gamification_badge_user_wizard_views.xml 
+2022-12-15 06:30:01,469 18736 INFO Deepu odoo.modules.loading: loading hr_gamification/views/gamification_views.xml 
+2022-12-15 06:30:01,695 18736 INFO Deepu odoo.modules.loading: loading hr_gamification/views/hr_employee_views.xml 
+2022-12-15 06:30:01,815 18736 INFO Deepu odoo.modules.loading: Module hr_gamification loaded in 2.13s, 255 queries (+255 other) 
+2022-12-15 06:30:01,815 18736 INFO Deepu odoo.modules.loading: Loading module hr_org_chart (38/73) 
+2022-12-15 06:30:02,299 18736 INFO Deepu odoo.modules.registry: module hr_org_chart: creating or updating database tables 
+2022-12-15 06:30:03,251 18736 INFO Deepu odoo.modules.loading: loading hr_org_chart/views/hr_views.xml 
+2022-12-15 06:30:03,478 18736 INFO Deepu odoo.modules.loading: Module hr_org_chart loaded in 1.66s, 88 queries (+88 other) 
+2022-12-15 06:30:03,478 18736 INFO Deepu odoo.modules.loading: Loading module mail_bot_hr (39/73) 
+2022-12-15 06:30:03,835 18736 INFO Deepu odoo.modules.loading: loading mail_bot_hr/views/res_users_views.xml 
+2022-12-15 06:30:04,488 18736 INFO Deepu odoo.modules.loading: Module mail_bot_hr loaded in 1.01s, 58 queries (+58 other) 
+2022-12-15 06:30:04,490 18736 INFO Deepu odoo.modules.loading: Loading module survey (44/73) 
+2022-12-15 06:30:05,530 18736 INFO Deepu odoo.modules.registry: module survey: creating or updating database tables 
+2022-12-15 06:30:05,886 18736 INFO Deepu odoo.models: Prepare computation of gamification.badge.survey_id 
+2022-12-15 06:30:07,514 18736 INFO Deepu odoo.modules.loading: loading survey/views/survey_report_templates.xml 
+2022-12-15 06:30:07,572 18736 INFO Deepu odoo.modules.loading: loading survey/views/survey_reports.xml 
+2022-12-15 06:30:07,637 18736 INFO Deepu odoo.modules.loading: loading survey/data/mail_template_data.xml 
+2022-12-15 06:30:07,664 18736 INFO Deepu odoo.modules.loading: loading survey/security/survey_security.xml 
+2022-12-15 06:30:08,533 18736 INFO Deepu odoo.modules.loading: loading survey/security/ir.model.access.csv 
+2022-12-15 06:30:08,567 18736 INFO Deepu odoo.modules.loading: loading survey/views/survey_menus.xml 
+2022-12-15 06:30:08,652 18736 INFO Deepu odoo.modules.loading: loading survey/views/survey_survey_views.xml 
+2022-12-15 06:30:08,786 18736 INFO Deepu odoo.modules.loading: loading survey/views/survey_user_views.xml 
+2022-12-15 06:30:09,016 18736 INFO Deepu odoo.modules.loading: loading survey/views/survey_question_views.xml 
+2022-12-15 06:30:09,232 18736 INFO Deepu odoo.modules.loading: loading survey/views/survey_templates.xml 
+2022-12-15 06:30:09,491 18736 INFO Deepu odoo.modules.loading: loading survey/views/survey_templates_management.xml 
+2022-12-15 06:30:09,633 18736 INFO Deepu odoo.modules.loading: loading survey/views/survey_templates_print.xml 
+2022-12-15 06:30:09,672 18736 INFO Deepu odoo.modules.loading: loading survey/views/survey_templates_statistics.xml 
+2022-12-15 06:30:09,790 18736 INFO Deepu odoo.modules.loading: loading survey/views/survey_templates_user_input_session.xml 
+2022-12-15 06:30:09,944 18736 INFO Deepu odoo.modules.loading: loading survey/views/gamification_badge_views.xml 
+2022-12-15 06:30:09,992 18736 INFO Deepu odoo.modules.loading: loading survey/wizard/survey_invite_views.xml 
+2022-12-15 06:30:10,027 18736 INFO Deepu odoo.modules.loading: loading survey/views/res_partner_views.xml 
+2022-12-15 06:30:10,059 18736 INFO Deepu odoo.modules.loading: Module survey: loading demo 
+2022-12-15 06:30:10,061 18736 INFO Deepu odoo.modules.loading: loading survey/data/gamification_badge_demo.xml 
+2022-12-15 06:30:10,204 18736 INFO Deepu odoo.modules.loading: loading survey/data/res_users_demo.xml 
+2022-12-15 06:30:10,317 18736 INFO Deepu odoo.modules.loading: loading survey/data/survey_demo_feedback.xml 
+2022-12-15 06:30:10,559 18736 INFO Deepu odoo.modules.loading: loading survey/data/survey_demo_feedback_user_input.xml 
+2022-12-15 06:30:10,724 18736 INFO Deepu odoo.modules.loading: loading survey/data/survey_demo_feedback_user_input_line.xml 
+2022-12-15 06:30:10,969 18736 INFO Deepu odoo.modules.loading: loading survey/data/survey_demo_certification.xml 
+2022-12-15 06:30:11,371 18736 INFO Deepu odoo.modules.loading: loading survey/data/survey_demo_certification_user_input.xml 
+2022-12-15 06:30:11,559 18736 INFO Deepu odoo.modules.loading: loading survey/data/survey_demo_certification_user_input_line.xml 
+2022-12-15 06:30:12,201 18736 INFO Deepu odoo.modules.loading: loading survey/data/survey_demo_quiz.xml 
+2022-12-15 06:30:13,355 18736 INFO Deepu odoo.modules.loading: loading survey/data/survey_demo_quiz_user_input.xml 
+2022-12-15 06:30:13,538 18736 INFO Deepu odoo.modules.loading: loading survey/data/survey_demo_quiz_user_input_line.xml 
+2022-12-15 06:30:13,972 18736 INFO Deepu odoo.modules.loading: loading survey/data/survey_demo_conditional.xml 
+2022-12-15 06:30:14,991 18736 INFO Deepu odoo.modules.loading: Module survey loaded in 10.50s, 3203 queries (+3203 other) 
+2022-12-15 06:30:14,991 18736 INFO Deepu odoo.modules.loading: Loading module portal_rating (48/73) 
+2022-12-15 06:30:15,798 18736 INFO Deepu odoo.modules.registry: module portal_rating: creating or updating database tables 
+2022-12-15 06:30:16,464 18736 INFO Deepu odoo.modules.loading: loading portal_rating/views/rating_rating_views.xml 
+2022-12-15 06:30:16,500 18736 INFO Deepu odoo.modules.loading: loading portal_rating/views/portal_templates.xml 
+2022-12-15 06:30:16,549 18736 INFO Deepu odoo.modules.loading: loading portal_rating/views/rating_templates.xml 
+2022-12-15 06:30:16,655 18736 INFO Deepu odoo.modules.loading: Module portal_rating loaded in 1.66s, 103 queries (+103 other) 
+2022-12-15 06:30:16,656 18736 INFO Deepu odoo.modules.loading: Loading module mass_mailing (50/73) 
+2022-12-15 06:30:17,950 18736 INFO Deepu odoo.modules.registry: module mass_mailing: creating or updating database tables 
+2022-12-15 06:30:18,492 18736 INFO Deepu odoo.models: Prepare computation of utm.campaign.ab_testing_total_pc 
+2022-12-15 06:30:21,401 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/security/res_groups_data.xml 
+2022-12-15 06:30:21,718 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/security/ir.model.access.csv 
+2022-12-15 06:30:21,755 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/data/digest_data.xml 
+2022-12-15 06:30:21,808 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/data/ir_attachment_data.xml 
+2022-12-15 06:30:22,037 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/data/ir_config_parameter_data.xml 
+2022-12-15 06:30:22,061 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/data/ir_cron_data.xml 
+2022-12-15 06:30:22,114 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/data/ir_module_data.xml 
+2022-12-15 06:30:22,137 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/data/mailing_data_templates.xml 
+2022-12-15 06:30:22,170 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/data/mailing_list_data.xml 
+2022-12-15 06:30:22,294 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/data/res_users_data.xml 
+2022-12-15 06:30:22,683 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/wizard/mail_compose_message_views.xml 
+2022-12-15 06:30:22,751 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/wizard/mailing_contact_import_views.xml 
+2022-12-15 06:30:22,801 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/wizard/mailing_contact_to_list_views.xml 
+2022-12-15 06:30:22,827 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/wizard/mailing_list_merge_views.xml 
+2022-12-15 06:30:22,840 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/wizard/mailing_mailing_test_views.xml 
+2022-12-15 06:30:22,896 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/wizard/mailing_mailing_schedule_date_views.xml 
+2022-12-15 06:30:22,969 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/report/mailing_trace_report_views.xml 
+2022-12-15 06:30:23,051 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/mailing_filter_views.xml 
+2022-12-15 06:30:23,109 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/mailing_trace_views.xml 
+2022-12-15 06:30:23,185 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/link_tracker_views.xml 
+2022-12-15 06:30:23,319 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/mailing_contact_views.xml 
+2022-12-15 06:30:23,470 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/mailing_contact_subscription_views.xml 
+2022-12-15 06:30:23,527 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/mailing_list_views.xml 
+2022-12-15 06:30:23,600 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/mailing_mailing_views.xml 
+2022-12-15 06:30:23,854 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/res_config_settings_views.xml 
+2022-12-15 06:30:24,041 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/utm_campaign_views.xml 
+2022-12-15 06:30:24,137 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/mailing_menus.xml 
+2022-12-15 06:30:24,328 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/assets.xml 
+2022-12-15 06:30:24,399 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_layouts.xml 
+2022-12-15 06:30:24,414 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_management.xml 
+2022-12-15 06:30:24,450 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_unsubscribe.xml 
+2022-12-15 06:30:24,557 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/themes_templates.xml 
+2022-12-15 06:30:24,609 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets_themes.xml 
+2022-12-15 06:30:24,920 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_alert.xml 
+2022-12-15 06:30:24,991 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_blockquote.xml 
+2022-12-15 06:30:25,000 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_call_to_action.xml 
+2022-12-15 06:30:25,028 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_coupon_code.xml 
+2022-12-15 06:30:25,077 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_cover.xml 
+2022-12-15 06:30:25,131 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_color_blocks_2.xml 
+2022-12-15 06:30:25,170 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_company_team.xml 
+2022-12-15 06:30:25,200 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_comparisons.xml 
+2022-12-15 06:30:25,214 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_event.xml 
+2022-12-15 06:30:25,231 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_features.xml 
+2022-12-15 06:30:25,273 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_features_grid.xml 
+2022-12-15 06:30:25,342 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_hr.xml 
+2022-12-15 06:30:25,435 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_image_text.xml 
+2022-12-15 06:30:25,460 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_masonry_block.xml 
+2022-12-15 06:30:25,684 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_media_list.xml 
+2022-12-15 06:30:25,719 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_numbers.xml 
+2022-12-15 06:30:25,743 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_picture.xml 
+2022-12-15 06:30:25,753 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_product_list.xml 
+2022-12-15 06:30:25,792 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_rating.xml 
+2022-12-15 06:30:25,930 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_references.xml 
+2022-12-15 06:30:25,976 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_showcase.xml 
+2022-12-15 06:30:26,009 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_text_block.xml 
+2022-12-15 06:30:26,018 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_text_highlight.xml 
+2022-12-15 06:30:26,043 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_text_image.xml 
+2022-12-15 06:30:26,092 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_three_columns.xml 
+2022-12-15 06:30:26,127 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/views/snippets/s_title.xml 
+2022-12-15 06:30:26,135 18736 INFO Deepu odoo.modules.loading: Module mass_mailing: loading demo 
+2022-12-15 06:30:26,135 18736 INFO Deepu odoo.modules.loading: loading mass_mailing/data/mass_mailing_demo.xml 
+2022-12-15 06:30:26,743 18736 INFO Deepu odoo.modules.loading: Module mass_mailing loaded in 10.09s, 2537 queries (+2537 other) 
+2022-12-15 06:30:26,743 18736 INFO Deepu odoo.modules.loading: Loading module project (51/73) 
+2022-12-15 06:30:28,108 18736 INFO Deepu odoo.modules.registry: module project: creating or updating database tables 
+2022-12-15 06:30:31,569 18736 INFO Deepu odoo.modules.loading: loading project/security/project_security.xml 
+2022-12-15 06:30:32,928 18736 INFO Deepu odoo.modules.loading: loading project/security/ir.model.access.csv 
+2022-12-15 06:30:33,165 18736 INFO Deepu odoo.modules.loading: loading project/security/ir.model.access.xml 
+2022-12-15 06:30:33,275 18736 INFO Deepu odoo.modules.loading: loading project/data/digest_data.xml 
+2022-12-15 06:30:33,357 18736 INFO Deepu odoo.modules.loading: loading project/report/project_report_views.xml 
+2022-12-15 06:30:33,433 18736 INFO Deepu odoo.modules.loading: loading project/report/project_task_burndown_chart_report_views.xml 
+2022-12-15 06:30:33,463 18736 INFO Deepu odoo.modules.loading: loading project/views/analytic_views.xml 
+2022-12-15 06:30:33,497 18736 INFO Deepu odoo.modules.loading: loading project/views/digest_views.xml 
+2022-12-15 06:30:33,576 18736 INFO Deepu odoo.modules.loading: loading project/views/rating_rating_views.xml 
+2022-12-15 06:30:33,897 18736 INFO Deepu odoo.modules.loading: loading project/views/project_update_views.xml 
+2022-12-15 06:30:33,985 18736 INFO Deepu odoo.modules.loading: loading project/views/project_update_templates.xml 
+2022-12-15 06:30:34,013 18736 INFO Deepu odoo.modules.loading: loading project/views/project_project_stage_views.xml 
+2022-12-15 06:30:34,150 18736 INFO Deepu odoo.modules.loading: loading project/wizard/project_share_wizard_views.xml 
+2022-12-15 06:30:34,206 18736 INFO Deepu odoo.modules.loading: loading project/views/project_collaborator_views.xml 
+2022-12-15 06:30:34,303 18736 INFO Deepu odoo.modules.loading: loading project/views/project_views.xml 
+2022-12-15 06:30:35,455 18736 INFO Deepu odoo.modules.loading: loading project/views/project_milestone_views.xml 
+2022-12-15 06:30:35,530 18736 INFO Deepu odoo.modules.loading: loading project/views/res_partner_views.xml 
+2022-12-15 06:30:35,588 18736 INFO Deepu odoo.modules.loading: loading project/views/res_config_settings_views.xml 
+2022-12-15 06:30:35,810 18736 INFO Deepu odoo.modules.loading: loading project/views/mail_activity_views.xml 
+2022-12-15 06:30:35,850 18736 INFO Deepu odoo.modules.loading: loading project/views/project_sharing_views.xml 
+2022-12-15 06:30:36,010 18736 INFO Deepu odoo.modules.loading: loading project/views/project_portal_templates.xml 
+2022-12-15 06:30:36,160 18736 INFO Deepu odoo.modules.loading: loading project/views/project_task_templates.xml 
+2022-12-15 06:30:36,204 18736 INFO Deepu odoo.modules.loading: loading project/views/project_sharing_templates.xml 
+2022-12-15 06:30:36,312 18736 INFO Deepu odoo.modules.loading: loading project/data/ir_cron_data.xml 
+2022-12-15 06:30:36,355 18736 INFO Deepu odoo.modules.loading: loading project/data/mail_message_subtype_data.xml 
+2022-12-15 06:30:36,436 18736 INFO Deepu odoo.modules.loading: loading project/data/mail_template_data.xml 
+2022-12-15 06:30:36,528 18736 INFO Deepu odoo.modules.loading: loading project/data/project_data.xml 
+2022-12-15 06:30:36,577 18736 INFO Deepu odoo.modules.loading: loading project/wizard/project_task_type_delete_views.xml 
+2022-12-15 06:30:36,623 18736 INFO Deepu odoo.modules.loading: Module project: loading demo 
+2022-12-15 06:30:36,625 18736 INFO Deepu odoo.modules.loading: loading project/data/mail_template_demo.xml 
+2022-12-15 06:30:36,653 18736 INFO Deepu odoo.modules.loading: loading project/data/project_demo.xml 
+2022-12-15 06:30:37,639 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:37,643 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 1 and Message-Id '<424842679577764.1671085837.362377882003784-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:37,650 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:38,459 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:38,464 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 2 and Message-Id '<740541408347877.1671085838.310276746749878-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:38,471 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:38,819 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:38,821 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 3 and Message-Id '<745383627468912.1671085838.738000392913818-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:38,826 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:39,165 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:39,168 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 4 and Message-Id '<256927074924605.1671085839.098812818527222-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:39,173 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:39,326 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:39,329 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 5 and Message-Id '<112311053442968.1671085839.268289327621460-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:39,332 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:39,447 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:39,450 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 6 and Message-Id '<555064086316001.1671085839.410228729248047-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:39,452 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:39,598 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:39,599 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 7 and Message-Id '<208424606122552.1671085839.528214931488037-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:39,600 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:39,715 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:39,719 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 8 and Message-Id '<575649944073135.1671085839.635237216949463-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:39,726 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:39,894 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:39,900 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 9 and Message-Id '<761303089009974.1671085839.800543785095215-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:39,906 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:40,061 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:40,062 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 10 and Message-Id '<924616528711003.1671085840.006967067718506-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:40,063 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:40,180 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:40,183 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 11 and Message-Id '<526726380009033.1671085840.081143140792847-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:40,187 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:41,547 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:41,551 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 12 and Message-Id '<650224703576984.1671085841.484891653060913-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:41,556 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:41,649 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:41,650 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 13 and Message-Id '<575906860555207.1671085841.560311317443848-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:41,653 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:41,833 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:41,837 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 14 and Message-Id '<508397307204641.1671085841.748238563537598-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:41,844 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:42,022 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:42,022 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 15 and Message-Id '<425847950432816.1671085841.971486806869507-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:42,024 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:42,058 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:42,061 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 16 and Message-Id '<053869293209417.1671085842.024804353713989-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:42,068 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:42,327 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:42,328 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 17 and Message-Id '<582257620075862.1671085842.240167617797852-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:42,329 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:42,451 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:42,452 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 18 and Message-Id '<868726882706202.1671085842.433930635452271-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:42,453 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:42,815 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:42,816 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 19 and Message-Id '<129884308697036.1671085842.752743482589722-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:42,817 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:42,853 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:42,855 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 20 and Message-Id '<086130511098781.1671085842.818972826004028-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:42,863 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:43,188 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:43,189 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 21 and Message-Id '<201138909645244.1671085843.128366231918335-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:43,191 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:43,230 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:43,230 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 22 and Message-Id '<648957830903981.1671085843.196113109588623-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:43,231 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:43,525 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:43,528 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 23 and Message-Id '<365634099129682.1671085843.450503587722778-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:43,534 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:43,615 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:43,618 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 24 and Message-Id '<404841508235345.1671085843.535604476928711-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:43,626 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:43,969 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:43,970 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 25 and Message-Id '<467174909942729.1671085843.924889802932739-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:43,971 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:44,238 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:44,241 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 26 and Message-Id '<452787798775522.1671085844.132510185241699-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:44,251 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:44,480 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:44,484 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 27 and Message-Id '<715486902060983.1671085844.331866264343262-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:44,492 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:44,835 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:44,835 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 28 and Message-Id '<479597147138359.1671085844.769017696380615-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:44,837 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:45,091 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:45,091 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 29 and Message-Id '<081839710427599.1671085844.997029304504395-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:45,094 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:45,329 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:45,331 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 30 and Message-Id '<305496359048788.1671085845.245490550994873-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:45,339 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:45,556 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:45,557 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 31 and Message-Id '<674702585494157.1671085845.473334550857544-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:45,564 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:45,698 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:45,701 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 32 and Message-Id '<336713138631072.1671085845.656439542770386-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:45,709 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:45,893 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:45,894 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 33 and Message-Id '<268046076842342.1671085845.817188024520874-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:45,901 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:46,066 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:46,069 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 34 and Message-Id '<978776828248274.1671085845.941359758377075-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:46,078 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:47,555 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:47,559 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 35 and Message-Id '<339554083754434.1671085847.496534109115601-openerp-3-project.task@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:47,566 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:47,671 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:47,673 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 36 and Message-Id '<263623366178189.1671085847.639039516448975-openerp-22-project.task@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:47,681 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:47,794 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:47,796 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 37 and Message-Id '<784257478784547.1671085847.761118650436401-openerp-4-project.task@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:47,800 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:47,951 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:30:47,952 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 38 and Message-Id '<907068994157740.1671085847.886478185653687-openerp-2-project.task@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:30:47,955 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:30:48,965 18736 INFO Deepu odoo.modules.loading: Module project loaded in 22.22s, 5031 queries (+5034 other) 
+2022-12-15 06:30:48,965 18736 INFO Deepu odoo.modules.loading: Loading module account_tax_python (56/73) 
+2022-12-15 06:30:49,572 18736 INFO Deepu odoo.modules.registry: module account_tax_python: creating or updating database tables 
+2022-12-15 06:30:50,717 18736 INFO Deepu odoo.modules.loading: loading account_tax_python/views/account_tax_views.xml 
+2022-12-15 06:30:50,830 18736 INFO Deepu odoo.modules.loading: Module account_tax_python loaded in 1.87s, 72 queries (+72 other) 
+2022-12-15 06:30:50,830 18736 INFO Deepu odoo.modules.loading: Loading module base_vat (57/73) 
+2022-12-15 06:30:51,408 18736 INFO Deepu odoo.modules.registry: module base_vat: creating or updating database tables 
+2022-12-15 06:30:52,465 18736 INFO Deepu odoo.modules.loading: loading base_vat/views/res_config_settings_views.xml 
+2022-12-15 06:30:52,688 18736 INFO Deepu odoo.modules.loading: Module base_vat loaded in 1.86s, 104 queries (+104 other) 
+2022-12-15 06:30:52,689 18736 INFO Deepu odoo.modules.loading: Loading module mass_mailing_themes (58/73) 
+2022-12-15 06:30:53,097 18736 INFO Deepu odoo.modules.loading: loading mass_mailing_themes/views/mass_mailing_themes_templates.xml 
+2022-12-15 06:30:53,779 18736 INFO Deepu odoo.modules.loading: Module mass_mailing_themes loaded in 1.09s, 59 queries (+59 other) 
+2022-12-15 06:30:53,779 18736 INFO Deepu odoo.modules.loading: Loading module project_sms (59/73) 
+2022-12-15 06:30:54,355 18736 INFO Deepu odoo.modules.registry: module project_sms: creating or updating database tables 
+2022-12-15 06:30:55,576 18736 INFO Deepu odoo.modules.loading: loading project_sms/views/project_stage_views.xml 
+2022-12-15 06:30:55,617 18736 INFO Deepu odoo.modules.loading: loading project_sms/views/project_task_type_views.xml 
+2022-12-15 06:30:55,758 18736 INFO Deepu odoo.modules.loading: loading project_sms/views/project_views.xml 
+2022-12-15 06:30:55,781 18736 INFO Deepu odoo.modules.loading: loading project_sms/security/ir.model.access.csv 
+2022-12-15 06:30:55,828 18736 INFO Deepu odoo.modules.loading: loading project_sms/security/project_sms_security.xml 
+2022-12-15 06:30:55,890 18736 INFO Deepu odoo.modules.loading: Module project_sms loaded in 2.11s, 176 queries (+176 other) 
+2022-12-15 06:30:55,891 18736 INFO Deepu odoo.modules.loading: Loading module l10n_in (66/73) 
+2022-12-15 06:30:56,544 18736 INFO Deepu odoo.modules.registry: module l10n_in: creating or updating database tables 
+2022-12-15 06:30:58,143 18736 INFO Deepu odoo.modules.loading: loading l10n_in/security/l10n_in_security.xml 
+2022-12-15 06:30:58,272 18736 INFO Deepu odoo.modules.loading: loading l10n_in/security/ir.model.access.csv 
+2022-12-15 06:30:58,329 18736 INFO Deepu odoo.modules.loading: loading l10n_in/data/account_tax_group_data.xml 
+2022-12-15 06:30:58,417 18736 INFO Deepu odoo.modules.loading: loading l10n_in/data/account.account.tag.csv 
+2022-12-15 06:30:58,462 18736 INFO Deepu odoo.modules.loading: loading l10n_in/data/l10n_in_chart_data.xml 
+2022-12-15 06:30:58,662 18736 INFO Deepu odoo.modules.loading: loading l10n_in/data/account.account.template.csv 
+2022-12-15 06:30:59,114 18736 INFO Deepu odoo.modules.loading: loading l10n_in/data/l10n_in_chart_post_data.xml 
+2022-12-15 06:30:59,138 18736 INFO Deepu odoo.modules.loading: loading l10n_in/data/account_tax_template_data.xml 
+2022-12-15 06:31:00,823 18736 INFO Deepu odoo.modules.loading: loading l10n_in/data/account_fiscal_position_data.xml 
+2022-12-15 06:31:01,041 18736 INFO Deepu odoo.modules.loading: loading l10n_in/data/l10n_in.port.code.csv 
+2022-12-15 06:31:01,444 18736 INFO Deepu odoo.modules.loading: loading l10n_in/data/res_country_state_data.xml 
+2022-12-15 06:31:01,760 18736 INFO Deepu odoo.modules.loading: loading l10n_in/data/uom_data.xml 
+2022-12-15 06:31:01,924 18736 INFO Deepu odoo.modules.loading: loading l10n_in/views/account_invoice_views.xml 
+2022-12-15 06:31:01,966 18736 INFO Deepu odoo.modules.loading: loading l10n_in/views/account_journal_views.xml 
+2022-12-15 06:31:02,051 18736 INFO Deepu odoo.modules.loading: loading l10n_in/views/res_config_settings_views.xml 
+2022-12-15 06:31:02,171 18736 INFO Deepu odoo.modules.loading: loading l10n_in/views/product_template_view.xml 
+2022-12-15 06:31:02,185 18736 INFO Deepu odoo.modules.loading: loading l10n_in/views/port_code_views.xml 
+2022-12-15 06:31:02,297 18736 INFO Deepu odoo.modules.loading: loading l10n_in/views/report_invoice.xml 
+2022-12-15 06:31:02,392 18736 INFO Deepu odoo.modules.loading: loading l10n_in/views/res_country_state_view.xml 
+2022-12-15 06:31:02,410 18736 INFO Deepu odoo.modules.loading: loading l10n_in/views/res_partner_views.xml 
+2022-12-15 06:31:02,471 18736 INFO Deepu odoo.modules.loading: loading l10n_in/views/account_tax_views.xml 
+2022-12-15 06:31:02,572 18736 INFO Deepu odoo.modules.loading: loading l10n_in/views/uom_uom_views.xml 
+2022-12-15 06:31:02,627 18736 INFO Deepu odoo.modules.loading: loading l10n_in/views/report_template.xml 
+2022-12-15 06:31:02,661 18736 INFO Deepu odoo.modules.loading: loading l10n_in/data/account_chart_template_data.xml 
+2022-12-15 06:31:10,924 18736 INFO Deepu odoo.modules.loading: Module l10n_in: loading demo 
+2022-12-15 06:31:10,924 18736 INFO Deepu odoo.modules.loading: loading l10n_in/demo/demo_company.xml 
+2022-12-15 06:31:19,170 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:31:19,173 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 43 and Message-Id '<617004719140203.1671085879.033579349517822-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:31:19,177 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:31:19,253 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:31:19,254 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 44 and Message-Id '<103387768173497.1671085879.184879302978516-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:31:19,260 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:31:19,320 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:31:19,323 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 45 and Message-Id '<815845419629049.1671085879.262404203414917-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:31:19,325 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:31:19,384 18736 INFO Deepu odoo.tests: skip sending email in test mode 
+2022-12-15 06:31:19,386 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Mail with ID 46 and Message-Id '<142248387941665.1671085879.326949357986450-openerp-message-notify@LAPTOP-DOCAOS9L>' successfully sent 
+2022-12-15 06:31:19,392 18736 INFO Deepu odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2022-12-15 06:31:19,574 18736 INFO Deepu odoo.modules.loading: loading l10n_in/demo/res_partner_demo.xml 
+2022-12-15 06:31:19,973 18736 INFO Deepu odoo.modules.loading: loading l10n_in/demo/product_demo.xml 
+2022-12-15 06:31:20,630 18736 INFO Deepu odoo.modules.loading: loading l10n_in/demo/account_payment_demo.xml 
+2022-12-15 06:31:21,217 18736 INFO Deepu odoo.modules.loading: loading l10n_in/demo/account_invoice_demo.xml 
+2022-12-15 06:31:28,293 18736 INFO Deepu odoo.modules.loading: Module l10n_in loaded in 32.40s, 7735 queries (+7757 other) 
+2022-12-15 06:31:28,293 18736 INFO Deepu odoo.modules.loading: Loading module l10n_in_pos (69/73) 
+2022-12-15 06:31:28,937 18736 INFO Deepu odoo.modules.registry: module l10n_in_pos: creating or updating database tables 
+2022-12-15 06:31:29,058 18736 INFO Deepu odoo.modules.loading: Module l10n_in_pos: loading demo 
+2022-12-15 06:31:29,060 18736 INFO Deepu odoo.modules.loading: loading l10n_in_pos/data/product_demo.xml 
+2022-12-15 06:31:30,146 18736 INFO Deepu odoo.modules.loading: Module l10n_in_pos loaded in 1.85s, 155 queries (+155 other) 
+2022-12-15 06:31:30,147 18736 INFO Deepu odoo.modules.loading: Loading module l10n_in_stock (70/73) 
+2022-12-15 06:31:30,623 18736 INFO Deepu odoo.modules.registry: module l10n_in_stock: creating or updating database tables 
+2022-12-15 06:31:30,790 18736 INFO Deepu odoo.modules.loading: loading l10n_in_stock/views/report_stockpicking_operations.xml 
+2022-12-15 06:31:31,405 18736 INFO Deepu odoo.modules.loading: Module l10n_in_stock: loading demo 
+2022-12-15 06:31:31,405 18736 INFO Deepu odoo.modules.loading: loading l10n_in_stock/data/product_demo.xml 
+2022-12-15 06:31:31,543 18736 INFO Deepu odoo.modules.loading: Module l10n_in_stock loaded in 1.40s, 60 queries (+60 other) 
+2022-12-15 06:31:31,544 18736 INFO Deepu odoo.modules.loading: Loading module pos_hr (72/73) 
+2022-12-15 06:31:32,442 18736 INFO Deepu odoo.modules.registry: module pos_hr: creating or updating database tables 
+2022-12-15 06:31:33,382 18736 INFO Deepu odoo.modules.loading: loading pos_hr/views/pos_config.xml 
+2022-12-15 06:31:33,437 18736 INFO Deepu odoo.modules.loading: loading pos_hr/views/pos_order_view.xml 
+2022-12-15 06:31:33,494 18736 INFO Deepu odoo.modules.loading: loading pos_hr/views/pos_order_report_view.xml 
+2022-12-15 06:31:33,596 18736 INFO Deepu odoo.modules.loading: loading pos_hr/views/res_config_settings_views.xml 
+2022-12-15 06:31:33,942 18736 INFO Deepu odoo.modules.loading: Module pos_hr loaded in 2.40s, 235 queries (+235 other) 
+2022-12-15 06:31:33,942 18736 INFO Deepu odoo.modules.loading: Loading module spreadsheet_dashboard_pos_hr (73/73) 
+2022-12-15 06:31:34,323 18736 INFO Deepu odoo.modules.loading: loading spreadsheet_dashboard_pos_hr/data/dashboards.xml 
+2022-12-15 06:31:35,275 18736 INFO Deepu odoo.modules.loading: Module spreadsheet_dashboard_pos_hr loaded in 1.33s, 26 queries (+26 other) 
+2022-12-15 06:31:35,276 18736 INFO Deepu odoo.modules.loading: 73 modules loaded in 127.99s, 27153 queries (+27178 extra) 
+2022-12-15 06:31:38,017 18736 INFO Deepu odoo.modules.loading: Modules loaded. 
+2022-12-15 06:31:38,022 18736 INFO Deepu odoo.modules.registry: Registry loaded in 280.504s 
+2022-12-15 06:31:38,022 18736 INFO Deepu odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2022-12-15 06:31:38,059 18736 INFO Deepu odoo.modules.registry: Registry changed, signaling through the database 
+2022-12-15 06:31:38,071 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:31:38] "POST /web/dataset/call_button HTTP/1.1" 200 - 62437 110.060 170.644
+2022-12-15 06:31:38,407 18736 INFO Deepu odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-12-15 06:31:53,590 18736 INFO Deepu odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Point of Sale'] to user jayadeepsaim@gmail.com #2 via 127.0.0.1 
+2022-12-15 06:31:53,590 18736 INFO Deepu odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2022-12-15 06:31:53,596 18736 INFO Deepu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Point of Sale'] to user jayadeepsaim@gmail.com #2 via 127.0.0.1 
+2022-12-15 06:31:53,766 18736 INFO Deepu odoo.modules.loading: loading 1 modules... 
+2022-12-15 06:31:53,772 18736 INFO Deepu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2022-12-15 06:31:53,822 18736 INFO Deepu odoo.modules.loading: updating modules list 
+2022-12-15 06:31:53,825 18736 INFO Deepu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2022-12-15 06:31:54,967 18736 INFO Deepu odoo.modules.loading: loading 73 modules... 
+2022-12-15 06:31:55,082 18736 INFO Deepu odoo.modules.loading: 73 modules loaded in 0.12s, 0 queries (+0 extra) 
+2022-12-15 06:31:56,988 18736 INFO Deepu odoo.modules.loading: Modules loaded. 
+2022-12-15 06:31:57,018 18736 INFO Deepu odoo.modules.registry: Registry loaded in 3.297s 
+2022-12-15 06:31:57,020 18736 INFO Deepu odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2022-12-15 06:31:57,037 18736 INFO Deepu odoo.modules.registry: Registry changed, signaling through the database 
+2022-12-15 06:31:57,038 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:31:57] "POST /web/dataset/call_button HTTP/1.1" 200 - 1654 1.475 2.132
+2022-12-15 06:31:57,398 18736 INFO Deepu odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-12-15 06:32:15,745 18736 INFO Deepu odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Point of Sale'] to user jayadeepsaim@gmail.com #2 via 127.0.0.1 
+2022-12-15 06:32:15,745 18736 INFO Deepu odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2022-12-15 06:32:15,751 18736 INFO Deepu odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Point of Sale'] to user jayadeepsaim@gmail.com #2 via 127.0.0.1 
+2022-12-15 06:32:15,809 18736 INFO Deepu odoo.modules.loading: loading 1 modules... 
+2022-12-15 06:32:15,816 18736 INFO Deepu odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2022-12-15 06:32:15,834 18736 INFO Deepu odoo.modules.loading: updating modules list 
+2022-12-15 06:32:15,835 18736 INFO Deepu odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2022-12-15 06:32:24,099 18736 INFO Deepu odoo.modules.loading: loading 73 modules... 
+2022-12-15 06:32:24,230 18736 INFO Deepu odoo.modules.loading: 73 modules loaded in 0.13s, 0 queries (+0 extra) 
+2022-12-15 06:32:26,300 18736 INFO Deepu odoo.modules.loading: Modules loaded. 
+2022-12-15 06:32:26,305 18736 INFO Deepu odoo.modules.registry: Registry loaded in 10.506s 
+2022-12-15 06:32:26,308 18736 INFO Deepu odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2022-12-15 06:32:26,347 18736 INFO Deepu odoo.modules.registry: Registry changed, signaling through the database 
+2022-12-15 06:32:26,348 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:26] "POST /web/dataset/call_button HTTP/1.1" 200 - 1654 1.438 9.177
+2022-12-15 06:32:26,752 18736 INFO Deepu odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-12-15 06:32:26,994 18736 INFO Deepu odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2022-12-15 06:32:26,995 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:26] "GET /web HTTP/1.1" 200 - 177 0.433 48.158
+2022-12-15 06:32:27,026 18736 INFO Deepu odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2022-12-15 06:32:27,028 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:27] "GET /web HTTP/1.1" 200 - 178 1.012 28.619
+2022-12-15 06:32:28,193 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:28] "GET /web HTTP/1.1" 200 - 94 0.073 1.419
+2022-12-15 06:32:28,210 18736 INFO Deepu odoo.modules.registry: Invalidating all model caches after database signaling. 
+2022-12-15 06:32:28,211 18736 INFO Deepu odoo.modules.registry: Invalidating all model caches after database signaling. 
+2022-12-15 06:32:28,219 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:28] "GET /web/assets/802-c9aff3c/web.assets_backend.min.css HTTP/1.1" 200 - 6 0.003 0.008
+2022-12-15 06:32:28,231 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:28] "GET /web/assets/801-461452a/web.assets_common.min.css HTTP/1.1" 200 - 5 0.013 0.013
+2022-12-15 06:32:28,534 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:28] "GET /web/assets/805-c9aff3c/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.006 0.008
+2022-12-15 06:32:28,535 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:28] "GET /web/assets/807-ef3c7e0/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.003 0.011
+2022-12-15 06:32:28,541 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:28] "GET /web/assets/803-461452a/web.assets_common.min.js HTTP/1.1" 200 - 4 0.006 0.017
+2022-12-15 06:32:28,613 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:28] "GET /web/webclient/translations/0533648af13cce69e9378a8e62f18b43e246eca4?lang=en_US HTTP/1.1" 200 - 4 0.008 0.046
+2022-12-15 06:32:28,660 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:28] "GET /web/webclient/load_menus/ef4962d90f4cfff76dcb099548751999648409f5ec6503e4197957239c955ebc HTTP/1.1" 200 - 33 0.047 0.090
+2022-12-15 06:32:29,339 18736 INFO Deepu odoo.addons.partner_autocomplete.models.res_company: Starting enrich of company My Company (San Francisco) (1) 
+2022-12-15 06:32:29,372 18736 INFO Deepu odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2022-12-15 06:32:29,372 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:29] "POST /web/dataset/call_kw/res.company/iap_enrich_auto HTTP/1.1" 200 - 26 0.027 0.020
+2022-12-15 06:32:29,380 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:29] "GET /bus/websocket_worker_bundle?v=1.0.0 HTTP/1.1" 304 - 8 0.014 0.013
+2022-12-15 06:32:29,693 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:29] "POST /mail/init_messaging HTTP/1.1" 200 - 63 0.091 0.015
+2022-12-15 06:32:29,699 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:29] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.004
+2022-12-15 06:32:29,754 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:29] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 4 0.007 0.003
+2022-12-15 06:32:29,768 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:29] "POST /web/action/load HTTP/1.1" 200 - 8 0.009 0.002
+2022-12-15 06:32:29,792 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:29] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 7 0.006 0.016
+2022-12-15 06:32:29,803 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:29] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.022 0.011
+2022-12-15 06:32:29,810 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:29] "POST /mail/inbox/messages HTTP/1.1" 200 - 7 0.021 0.007
+2022-12-15 06:32:30,029 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:30] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 200 - 0 0.000 0.003
+2022-12-15 06:32:30,134 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:30] "GET /web/image/mail.channel/1/avatar_128?unique=0e4804e5fcee81b21de77c57c7dd7ee5c74b31dba3b28a1a2af269f7c864b93aee5e9115da4f7683f55c779b992211b887ebb90422d8bb497ad8edc461f0ba14 HTTP/1.1" 200 - 4 0.001 0.036
+2022-12-15 06:32:42,710 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:42] "POST /web/action/load HTTP/1.1" 200 - 11 0.008 0.012
+2022-12-15 06:32:43,016 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:43] "POST /web/dataset/call_kw/pos.config/get_views HTTP/1.1" 200 - 34 0.036 0.028
+2022-12-15 06:32:43,073 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:32:43] "POST /web/dataset/call_kw/pos.config/web_search_read HTTP/1.1" 200 - 26 0.031 0.010
+2022-12-15 06:42:56,437 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:42:56] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.007
+2022-12-15 06:51:32,088 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:51:32] "GET /sms/static/img/sms_failure.svg HTTP/1.1" 200 - 0 0.000 0.018
+2022-12-15 06:51:32,088 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 06:51:32] "GET /mail/static/src/img/smiley/mailfailure.jpg HTTP/1.1" 200 - 0 0.000 0.017
+2022-12-15 06:51:32,095 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:51:32] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.013 0.014
+2022-12-15 06:51:32,108 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:51:32] "POST /web/dataset/call_kw/mail.channel/channel_fetch_preview HTTP/1.1" 200 - 37 0.051 0.006
+2022-12-15 06:51:40,122 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:51:40] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 3 0.008 0.005
+2022-12-15 06:53:11,423 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 06:53:11] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.006
+2022-12-15 07:03:26,122 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 07:03:26] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.007
+2022-12-15 07:36:12,134 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 07:36:12] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.000
+2022-12-15 07:54:51,802 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 07:54:51] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.007
+2022-12-15 08:05:11,258 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 08:05:11] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.008
+2022-12-15 08:06:56,757 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 08:06:56] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.008
+2022-12-15 08:17:29,237 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 08:17:29] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2022-12-15 08:27:44,230 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 08:27:44] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2022-12-15 08:38:11,514 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 08:38:11] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.013
+2022-12-15 08:48:56,358 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 08:48:56] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2022-12-15 08:59:26,381 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 08:59:26] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2022-12-15 09:10:11,387 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:10:11] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.008
+2022-12-15 09:20:26,333 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:20:26] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2022-12-15 09:22:37,517 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:37] "GET /web HTTP/1.1" 200 - 88 0.058 3.810
+2022-12-15 09:22:38,107 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:38] "GET /bus/websocket_worker_bundle?v=1.0.0 HTTP/1.1" 304 - 4 0.005 0.012
+2022-12-15 09:22:38,119 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:38] "POST /web/action/load HTTP/1.1" 200 - 10 0.014 0.014
+2022-12-15 09:22:38,442 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:38] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.012
+2022-12-15 09:22:38,521 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:38] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 3 0.006 0.013
+2022-12-15 09:22:38,551 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:38] "POST /web/dataset/call_kw/pos.config/get_views HTTP/1.1" 200 - 2 0.005 0.035
+2022-12-15 09:22:38,551 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:38] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.018 0.019
+2022-12-15 09:22:38,560 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:38] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 7 0.006 0.032
+2022-12-15 09:22:38,588 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:38] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.093 0.025
+2022-12-15 09:22:38,782 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:38] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.006 0.048
+2022-12-15 09:22:38,916 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:38] "POST /web/dataset/call_kw/pos.config/web_search_read HTTP/1.1" 200 - 10 0.032 0.013
+2022-12-15 09:22:38,933 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:38] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.009 0.014
+2022-12-15 09:22:38,940 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:38] "POST /mail/load_message_failures HTTP/1.1" 200 - 9 0.039 0.011
+2022-12-15 09:22:41,457 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:41] "POST /web/dataset/call_button HTTP/1.1" 200 - 51 0.095 0.065
+2022-12-15 09:22:49,047 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:22:49] "POST /web/dataset/call_button HTTP/1.1" 200 - 16 0.235 0.056
+2022-12-15 09:23:01,469 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:01] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 70 0.089 19.601
+2022-12-15 09:23:01,858 18736 ERROR Deepu odoo.sql_db: bad query: UPDATE "pos_session" SET "login_number" = 1, "write_date" = '2022-12-15 09:22:49.103066', "write_uid" = 2 WHERE id IN (1)
+ERROR: could not serialize access due to concurrent update
+ 
+2022-12-15 09:23:01,858 18736 INFO Deepu odoo.service.model: SERIALIZATION_FAILURE, 4 tries left, try again in 0.6390 sec... 
+2022-12-15 09:23:02,518 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:02] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 38 0.190 13.232
+2022-12-15 09:23:02,548 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:02] "GET /web/assets/808-53ea36a/point_of_sale.pos_assets_backend_style.min.css HTTP/1.1" 200 - 4 0.000 0.010
+2022-12-15 09:23:02,864 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:02] "GET /web/assets/811-b1d3872/point_of_sale.pos_assets_backend.min.js HTTP/1.1" 404 - 2 0.004 0.011
+2022-12-15 09:23:02,877 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:02] "GET /web/assets/814-fe106cd/point_of_sale.assets.min.js HTTP/1.1" 404 - 2 0.007 0.018
+2022-12-15 09:23:02,889 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:02] "GET /web/assets/809-fe106cd/point_of_sale.assets.min.css HTTP/1.1" 200 - 4 0.005 0.035
+2022-12-15 09:23:02,910 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:02] "GET /web/assets/813-4109def/point_of_sale.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.009 0.042
+2022-12-15 09:23:03,297 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:03] "GET /point_of_sale/static/src/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.007
+2022-12-15 09:23:33,367 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:33] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 15 0.016 0.037
+2022-12-15 09:23:33,627 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:33] "GET /web/assets/811-b1d3872/point_of_sale.pos_assets_backend.min.js HTTP/1.1" 404 - 2 0.000 0.000
+2022-12-15 09:23:33,699 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:33] "GET /web/assets/814-fe106cd/point_of_sale.assets.min.js HTTP/1.1" 404 - 2 0.000 0.000
+2022-12-15 09:23:36,814 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:36] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 15 0.007 0.018
+2022-12-15 09:23:36,817 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:36] "GET /web/assets/811-b1d3872/point_of_sale.pos_assets_backend.min.js HTTP/1.1" 404 - 2 0.000 0.000
+2022-12-15 09:23:37,058 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:37] "GET /web/assets/814-fe106cd/point_of_sale.assets.min.js HTTP/1.1" 404 - 2 0.001 0.008
+2022-12-15 09:23:48,757 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:48] "GET /bus/websocket_worker_bundle?v=1.0.0 HTTP/1.1" 304 - 4 0.000 0.002
+2022-12-15 09:23:48,779 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:48] "POST /web/action/load HTTP/1.1" 200 - 10 0.006 0.019
+2022-12-15 09:23:49,099 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:49] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.010
+2022-12-15 09:23:49,189 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:49] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 3 0.022 0.019
+2022-12-15 09:23:49,218 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:49] "POST /web/dataset/call_kw/pos.config/get_views HTTP/1.1" 200 - 2 0.013 0.032
+2022-12-15 09:23:49,226 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:49] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 7 0.017 0.027
+2022-12-15 09:23:49,227 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:49] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.050 0.061
+2022-12-15 09:23:49,448 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:49] "POST /web/dataset/call_kw/pos.config/web_search_read HTTP/1.1" 200 - 13 0.022 0.045
+2022-12-15 09:23:49,587 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:49] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 200 - 7 0.019 0.018
+2022-12-15 09:23:49,591 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:49] "POST /mail/load_message_failures HTTP/1.1" 200 - 9 0.006 0.038
+2022-12-15 09:23:51,359 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:51] "POST /web/dataset/call_button HTTP/1.1" 200 - 16 0.027 0.045
+2022-12-15 09:23:51,707 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:51] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 15 0.008 0.011
+2022-12-15 09:23:51,739 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:51] "GET /web/assets/811-b1d3872/point_of_sale.pos_assets_backend.min.js HTTP/1.1" 404 - 2 0.000 0.007
+2022-12-15 09:23:51,963 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:23:51] "GET /web/assets/814-fe106cd/point_of_sale.assets.min.js HTTP/1.1" 404 - 2 0.003 0.006
+2022-12-15 09:24:09,177 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:09] "GET / HTTP/1.1" 303 - 2 0.000 0.003
+2022-12-15 09:24:09,455 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:09] "GET /web HTTP/1.1" 200 - 10 0.008 0.018
+2022-12-15 09:24:25,083 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:25] "GET /bus/websocket_worker_bundle?v=1.0.0 HTTP/1.1" 304 - 4 0.023 0.029
+2022-12-15 09:24:29,319 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:29] "GET / HTTP/1.1" 303 - 4 0.053 0.093
+2022-12-15 09:24:29,547 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:29] "GET /favicon.ico HTTP/1.1" 404 - 113 0.277 19.749
+2022-12-15 09:24:31,948 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:31] "GET /web HTTP/1.1" 200 - 94 0.062 2.535
+2022-12-15 09:24:32,807 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:32] "GET /bus/websocket_worker_bundle?v=1.0.0 HTTP/1.1" 304 - 6 0.004 0.015
+2022-12-15 09:24:33,157 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:33] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.011
+2022-12-15 09:24:33,174 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:33] "POST /mail/init_messaging HTTP/1.1" 200 - 59 0.077 0.042
+2022-12-15 09:24:33,209 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:33] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 4 0.003 0.007
+2022-12-15 09:24:33,247 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:33] "POST /web/action/load HTTP/1.1" 200 - 8 0.003 0.006
+2022-12-15 09:24:33,277 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:33] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.014 0.014
+2022-12-15 09:24:33,278 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:33] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 7 0.008 0.019
+2022-12-15 09:24:33,510 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:33] "POST /mail/inbox/messages HTTP/1.1" 200 - 7 0.007 0.007
+2022-12-15 09:24:41,378 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:41] "POST /web/action/load HTTP/1.1" 200 - 11 0.015 0.020
+2022-12-15 09:24:41,811 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:41] "POST /web/dataset/call_kw/pos.config/get_views HTTP/1.1" 200 - 28 0.020 0.081
+2022-12-15 09:24:42,033 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:42] "POST /web/dataset/call_kw/pos.config/web_search_read HTTP/1.1" 200 - 29 0.047 0.029
+2022-12-15 09:24:42,162 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:42] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 304 - 7 0.004 0.012
+2022-12-15 09:24:44,087 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:44] "POST /web/dataset/call_button HTTP/1.1" 200 - 26 0.052 0.016
+2022-12-15 09:24:47,028 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:47] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 55 0.022 2.598
+2022-12-15 09:24:47,056 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:47] "GET /web/assets/812-fe106cd/point_of_sale.assets.min.js HTTP/1.1" 200 - 4 0.003 0.014
+2022-12-15 09:24:47,056 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:47] "GET /web/assets/810-b1d3872/point_of_sale.pos_assets_backend.min.js HTTP/1.1" 200 - 4 0.002 0.007
+2022-12-15 09:24:47,954 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:47] "GET /bus/websocket_worker_bundle?v=1.0.0 HTTP/1.1" 304 - 4 0.007 0.009
+2022-12-15 09:24:48,207 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:48] "GET /web/static/fonts/lato/Lato-Reg-webfont.woff HTTP/1.1" 200 - 0 0.000 0.009
+2022-12-15 09:24:48,308 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:48] "GET /websocket HTTP/1.1" 101 - 1 0.003 0.013
+2022-12-15 09:24:48,358 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:48] "GET /point_of_sale/static/src/img/logo.png HTTP/1.1" 200 - 0 0.000 0.019
+2022-12-15 09:24:48,878 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:48] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 187 0.191 0.374
+2022-12-15 09:24:48,908 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:48] "GET /web/binary/company_logo?dbname=Deepu&company=1&_0.7568583665355282 HTTP/1.1" 200 - 2 0.000 0.004
+2022-12-15 09:24:49,234 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:49] "GET /point_of_sale/static/src/fonts/Inconsolata.otf HTTP/1.1" 200 - 0 0.000 0.012
+2022-12-15 09:24:49,267 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:49] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.000 0.000
+2022-12-15 09:24:49,601 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:49] "POST /web/dataset/call_kw/pos.session/get_pos_ui_product_product_by_params HTTP/1.1" 200 - 3 0.001 0.013
+2022-12-15 09:24:49,868 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:49] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.005 0.013
+2022-12-15 09:24:49,933 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:49] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.007 0.006
+2022-12-15 09:24:50,188 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:50] "GET /point_of_sale/static/src/css/chrome50.css HTTP/1.1" 200 - 0 0.000 0.009
+2022-12-15 09:24:50,277 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:50] "GET /web/static/fonts/lato/Lato-Bol-webfont.woff HTTP/1.1" 200 - 0 0.000 0.018
+2022-12-15 09:24:50,329 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:50] "GET /web/static/fonts/lato/Lato-LigIta-webfont.woff HTTP/1.1" 200 - 0 0.000 0.022
+2022-12-15 09:24:50,360 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:50] "GET /point_of_sale/static/src/img/backspace.png HTTP/1.1" 200 - 0 0.000 0.049
+2022-12-15 09:24:50,447 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:50] "POST /web/dataset/call_kw/pos.session/get_pos_ui_res_partner_by_params HTTP/1.1" 200 - 18 0.062 0.077
+2022-12-15 09:24:50,487 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:50] "POST /web/dataset/call_kw/pos.session/get_pos_ui_product_product_by_params HTTP/1.1" 200 - 26 0.075 0.105
+2022-12-15 09:24:50,537 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:50] "GET /web/image?model=product.product&field=image_128&id=23&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 13 0.001 0.019
+2022-12-15 09:24:50,621 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:50] "GET /web/image?model=product.product&field=image_128&id=25&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.011 0.028
+2022-12-15 09:24:50,672 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:50] "GET /web/image?model=product.product&field=image_128&id=24&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.003 0.022
+2022-12-15 09:24:50,688 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:50] "GET /web/image?model=product.product&field=image_128&id=5&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.007 0.009
+2022-12-15 09:24:50,807 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:50] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 304 - 7 0.008 0.026
+2022-12-15 09:24:50,819 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:50] "GET /web/static/img/openhand.cur HTTP/1.1" 200 - 0 0.000 0.011
+2022-12-15 09:24:50,871 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:50] "POST /web/dataset/call_kw/pos.session/get_pos_ui_res_partner_by_params HTTP/1.1" 200 - 2 0.004 0.006
+2022-12-15 09:24:50,967 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:50] "GET /web/image?model=product.product&field=image_128&id=49&unique=2022-12-15%2006:31:28 HTTP/1.1" 200 - 7 0.009 0.020
+2022-12-15 09:24:51,027 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=16&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.008 0.030
+2022-12-15 09:24:51,039 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=17&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.006 0.024
+2022-12-15 09:24:51,167 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=18&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.000 0.042
+2022-12-15 09:24:51,187 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=19&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.002 0.028
+2022-12-15 09:24:51,207 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=20&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.001 0.028
+2022-12-15 09:24:51,328 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=21&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.004 0.025
+2022-12-15 09:24:51,377 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=42&unique=2022-12-15%2006:31:28 HTTP/1.1" 200 - 7 0.014 0.014
+2022-12-15 09:24:51,388 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=45&unique=2022-12-15%2006:31:28 HTTP/1.1" 200 - 7 0.008 0.011
+2022-12-15 09:24:51,517 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=47&unique=2022-12-15%2006:31:28 HTTP/1.1" 200 - 7 0.006 0.020
+2022-12-15 09:24:51,530 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=41&unique=2022-12-15%2006:31:28 HTTP/1.1" 200 - 7 0.003 0.021
+2022-12-15 09:24:51,537 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=43&unique=2022-12-15%2006:31:28 HTTP/1.1" 200 - 7 0.005 0.010
+2022-12-15 09:24:51,677 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=44&unique=2022-12-15%2006:31:28 HTTP/1.1" 200 - 7 0.005 0.010
+2022-12-15 09:24:51,697 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=48&unique=2022-12-15%2006:31:28 HTTP/1.1" 200 - 7 0.000 0.013
+2022-12-15 09:24:51,717 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=40&unique=2022-12-15%2006:31:28 HTTP/1.1" 200 - 7 0.000 0.014
+2022-12-15 09:24:51,870 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=12&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.009 0.022
+2022-12-15 09:24:51,873 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=39&unique=2022-12-15%2006:31:28 HTTP/1.1" 200 - 7 0.006 0.028
+2022-12-15 09:24:51,879 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:51] "GET /web/image?model=product.product&field=image_128&id=13&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 6 0.004 0.017
+2022-12-15 09:24:52,017 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=14&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 6 0.000 0.029
+2022-12-15 09:24:52,038 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=30&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.005 0.012
+2022-12-15 09:24:52,060 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=26&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.001 0.021
+2022-12-15 09:24:52,222 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=34&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.022 0.019
+2022-12-15 09:24:52,222 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=31&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.012 0.031
+2022-12-15 09:24:52,232 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=8&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.012 0.013
+2022-12-15 09:24:52,367 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=29&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.000 0.027
+2022-12-15 09:24:52,397 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=33&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.016 0.024
+2022-12-15 09:24:52,407 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=32&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.011 0.014
+2022-12-15 09:24:52,566 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=6&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.008 0.019
+2022-12-15 09:24:52,567 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=27&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.009 0.015
+2022-12-15 09:24:52,571 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=35&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.005 0.022
+2022-12-15 09:24:52,752 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=28&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.012 0.034
+2022-12-15 09:24:52,752 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=7&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 7 0.018 0.026
+2022-12-15 09:24:52,757 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=15&unique=2022-12-15%2006:27:20 HTTP/1.1" 200 - 7 0.014 0.014
+2022-12-15 09:24:52,907 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=3&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 6 0.000 0.021
+2022-12-15 09:24:52,907 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=4&unique=2022-12-15%2006:30:55 HTTP/1.1" 200 - 6 0.007 0.018
+2022-12-15 09:24:52,913 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:52] "GET /web/image?model=product.product&field=image_128&id=46&unique=2022-12-15%2006:31:28 HTTP/1.1" 200 - 7 0.008 0.017
+2022-12-15 09:24:53,111 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:53] "GET /web/image?model=pos.category&field=image_128&id=1&unique=2022-12-15%2006:29:11 HTTP/1.1" 200 - 3 0.009 0.021
+2022-12-15 09:24:53,120 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:53] "GET /web/image?model=pos.category&field=image_128&id=2&unique=2022-12-15%2006:29:11 HTTP/1.1" 200 - 3 0.007 0.033
+2022-12-15 09:24:53,121 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:53] "GET /web/image?model=pos.category&field=image_128&id=3&unique=2022-12-15%2006:29:11 HTTP/1.1" 200 - 3 0.001 0.039
+2022-12-15 09:24:53,234 18736 INFO ? werkzeug: 127.0.0.1 - - [15/Dec/2022 09:24:53] "GET /point_of_sale/static/src/img/bc-arrow-big.png HTTP/1.1" 200 - 0 0.000 0.015
+2022-12-15 09:34:56,605 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:34:56] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.015
+2022-12-15 09:45:11,267 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:45:11] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2022-12-15 09:55:56,504 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 09:55:56] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.014
+2022-12-15 10:06:02,137 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 10:06:02] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.020
+2022-12-15 10:16:11,160 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 10:16:11] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.000
+2022-12-15 10:26:26,124 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 10:26:26] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2022-12-15 10:32:35,193 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 10:32:35] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.007
+2022-12-15 10:42:38,462 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 10:42:38] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2022-12-15 10:56:02,456 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 10:56:02] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.005
+2022-12-15 11:06:03,614 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 11:06:03] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.005
+2022-12-15 11:16:13,287 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 11:16:13] "GET /websocket HTTP/1.1" 101 - 1 0.003 0.005
+2022-12-15 11:26:26,528 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 11:26:26] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2022-12-15 11:37:11,236 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 11:37:11] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2022-12-15 11:39:10,650 18736 INFO Deepu werkzeug: 127.0.0.1 - - [15/Dec/2022 11:39:10] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.022
+2022-12-16 04:21:51,352 18736 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "C:\odoo16\server\odoo\addons\bus\models\bus.py", line 174, in run
+    self.loop()
+  File "C:\odoo16\server\odoo\addons\bus\models\bus.py", line 159, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2022-12-16 04:21:51,430 18736 INFO ? odoo.service.server: Initiating shutdown 
+2022-12-16 04:21:51,430 18736 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2022-12-16 04:21:51,806 18736 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 7 connections  
